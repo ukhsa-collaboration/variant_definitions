@@ -1,0 +1,158 @@
+unique-id: cheesy-styling
+phe-label: VUI202102/01
+alternate-names:
+- Liverpool
+belongs-to-lineage:
+- PANGO: A.23.1
+description: This variant is a cluster within clade A.23.1 containing E484K observed in Liverpool
+information-sources:
+-
+variants:
+- amino-acid-change: L741F
+  codon-change: CTT-TTT
+  gene: ORF1ab
+  one-based-reference-position: 4940
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 741
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: M86I
+  codon-change: ATG-ATT
+  gene: ORF1ab
+  one-based-reference-position: 11230
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 86
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: L98F
+  codon-change: TTG-TTT
+  gene: ORF1ab
+  one-based-reference-position: 11266
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 98
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: M183I
+  codon-change: ATG-ATT
+  gene: ORF1ab
+  one-based-reference-position: 11521
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 183
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: R102I
+  codon-change: AGA-ATA
+  gene: S
+  one-based-reference-position: 21867
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 102
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: F157L
+  codon-change: TTC-TTA
+  gene: S
+  one-based-reference-position: 22033
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 157
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: V367F
+  codon-change: GTC-TTC
+  gene: S
+  one-based-reference-position: 22661
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 367
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: Q613H
+  codon-change: CAG-CAT
+  gene: S
+  one-based-reference-position: 23401
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 613
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: P681R
+  codon-change: CCT-CGT
+  gene: S
+  one-based-reference-position: 23604
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 681
+  reference-base: C
+  type: SNP
+  variant-base: G
+- amino-acid-change: L84S
+  codon-change: TTA-TCA
+  gene: ORF8
+  one-based-reference-position: 28144
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 84
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: E92K
+  codon-change: GAA-AAA
+  gene: ORF8
+  one-based-reference-position: 28167
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 92
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: S202N
+  codon-change: AGT-AAT
+  gene: N
+  one-based-reference-position: 28878
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 202
+  reference-base: G
+  type: SNP
+  variant-base: A
+calling-definition:
+  confirmed:
+    mutations-required: 13
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+  - Natalie Groves
+  - Ulf Schaefer
+  - Nick Loman

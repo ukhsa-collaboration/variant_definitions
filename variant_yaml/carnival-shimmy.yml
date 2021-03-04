@@ -1,0 +1,352 @@
+unique-id: carnival-shimmy
+phe-label: VOC202012/02
+alternate-names:
+- South Africa
+- VOC2
+belongs-to-lineage:
+- PANGO: B.1.351
+- nextstrain: N501Y.V2
+description: This variant became widespread in countries in Southern Africa at the end of 2020 and has now been exported to a number of other countries including the UK
+information-sources:
+-
+variants:
+- amino-acid-change: T85I
+  codon-change: ACC-ATC
+  gene: ORF1ab
+  one-based-reference-position: 1059
+  predicted-effect: non-synonymous
+  protein: nsp2
+  protein-codon-position: 85
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: K837N
+  codon-change: AAG-AAT
+  gene: ORF1ab
+  one-based-reference-position: 5230
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 837
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: K90R
+  codon-change: AAG-AGG
+  gene: ORF1ab
+  one-based-reference-position: 10323
+  predicted-effect: non-synonymous
+  protein: nsp5
+  protein-codon-position: 90
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: D80A
+  codon-change: GAT-GCT
+  gene: S
+  one-based-reference-position: 21801
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 80
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: D215G
+  codon-change: GAT-GGT
+  gene: S
+  one-based-reference-position: 22206
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 215
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: N501Y
+  codon-change: AAT-TAT
+  gene: S
+  one-based-reference-position: 23063
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 501
+  reference-base: A
+  type: SNP
+  variant-base: T
+- amino-acid-change: A701V
+  codon-change: GCA-GTA
+  gene: S
+  one-based-reference-position: 23664
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 701
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: Q57H
+  codon-change: CAG-CAT
+  gene: ORF3a
+  one-based-reference-position: 25563
+  predicted-effect: non-synonymous
+  protein: ORF3a protein
+  protein-codon-position: 57
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: S171L
+  codon-change: TCA-TTA
+  gene: ORF3a
+  one-based-reference-position: 25904
+  predicted-effect: non-synonymous
+  protein: ORF3a protein
+  protein-codon-position: 171
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: P71L
+  codon-change: CCT-CTT
+  gene: E
+  one-based-reference-position: 26456
+  predicted-effect: non-synonymous
+  protein: envelope protein
+  protein-codon-position: 71
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: T205I
+  codon-change: ACT-ATT
+  gene: N
+  one-based-reference-position: 28887
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 205
+  reference-base: C
+  type: SNP
+  variant-base: T
+- gene: S
+  one-based-reference-position: 22280
+  protein: surface glycoprotein
+  reference-base: ACTTTACTTG
+  type: deletion
+  variant-base: A
+- gene: ORF1ab
+  one-based-reference-position: 11287
+  protein: nsp6
+  reference-base: GTCTGGTTTT
+  type: deletion
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 12
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 4
+    indels-required: 0
+    allowed-wildtype: 0
+  alt-probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 4
+    variants:
+      - amino-acid-change: K837N
+        codon-change: AAG-AAT
+        gene: ORF1ab
+        one-based-reference-position: 5230
+        predicted-effect: non-synonymous
+        protein: nsp3
+        protein-codon-position: 837
+        reference-base: G
+        type: SNP
+        variant-base: T
+      - amino-acid-change: D80A
+        codon-change: GAT-GCT
+        gene: S
+        one-based-reference-position: 21801
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 80
+        reference-base: A
+        type: SNP
+        variant-base: C
+      - amino-acid-change: D215G
+        codon-change: GAT-GGT
+        gene: S
+        one-based-reference-position: 22206
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 215
+        reference-base: A
+        type: SNP
+        variant-base: G
+      - amino-acid-change: K417N
+        codon-change: AAG-AAT
+        gene: S
+        one-based-reference-position: 22813
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 417
+        reference-base: G
+        type: SNP
+        variant-base: T
+      - amino-acid-change: E484K
+        codon-change: GAA-AAA
+        gene: S
+        one-based-reference-position: 23012
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 484
+        reference-base: G
+        type: SNP
+        variant-base: A
+      - amino-acid-change: N501Y
+        codon-change: AAT-TAT
+        gene: S
+        one-based-reference-position: 23063
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 501
+        reference-base: A
+        type: SNP
+        variant-base: T
+      - amino-acid-change: A701V
+        codon-change: GCA-GTA
+        gene: S
+        one-based-reference-position: 23664
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 701
+        reference-base: C
+        type: SNP
+        variant-base: T
+      - amino-acid-change: P71L
+        codon-change: CCT-CTT
+        gene: E
+        one-based-reference-position: 26456
+        predicted-effect: non-synonymous
+        protein: envelope protein
+        protein-codon-position: 71
+        reference-base: C
+        type: SNP
+        variant-base: T
+      - amino-acid-change: T205I
+        codon-change: ACT-ATT
+        gene: N
+        one-based-reference-position: 28887
+        predicted-effect: non-synonymous
+        protein: nucleocapsid phosphoprotein
+        protein-codon-position: 205
+        reference-base: C
+        type: SNP
+        variant-base: T
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+  alt-low-qc:
+    mutations-required: 1
+    indels-required: 0
+    allowed-wildtype: 4
+    variants:
+      - amino-acid-change: K837N
+        codon-change: AAG-AAT
+        gene: ORF1ab
+        one-based-reference-position: 5230
+        predicted-effect: non-synonymous
+        protein: nsp3
+        protein-codon-position: 837
+        reference-base: G
+        type: SNP
+        variant-base: T
+      - amino-acid-change: D80A
+        codon-change: GAT-GCT
+        gene: S
+        one-based-reference-position: 21801
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 80
+        reference-base: A
+        type: SNP
+        variant-base: C
+      - amino-acid-change: D215G
+        codon-change: GAT-GGT
+        gene: S
+        one-based-reference-position: 22206
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 215
+        reference-base: A
+        type: SNP
+        variant-base: G
+      - amino-acid-change: K417N
+        codon-change: AAG-AAT
+        gene: S
+        one-based-reference-position: 22813
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 417
+        reference-base: G
+        type: SNP
+        variant-base: T
+      - amino-acid-change: E484K
+        codon-change: GAA-AAA
+        gene: S
+        one-based-reference-position: 23012
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 484
+        reference-base: G
+        type: SNP
+        variant-base: A
+      - amino-acid-change: N501Y
+        codon-change: AAT-TAT
+        gene: S
+        one-based-reference-position: 23063
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 501
+        reference-base: A
+        type: SNP
+        variant-base: T
+      - amino-acid-change: A701V
+        codon-change: GCA-GTA
+        gene: S
+        one-based-reference-position: 23664
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 701
+        reference-base: C
+        type: SNP
+        variant-base: T
+      - amino-acid-change: P71L
+        codon-change: CCT-CTT
+        gene: E
+        one-based-reference-position: 26456
+        predicted-effect: non-synonymous
+        protein: envelope protein
+        protein-codon-position: 71
+        reference-base: C
+        type: SNP
+        variant-base: T
+      - amino-acid-change: T205I
+        codon-change: ACT-ATT
+        gene: N
+        one-based-reference-position: 28887
+        predicted-effect: non-synonymous
+        protein: nucleocapsid phosphoprotein
+        protein-codon-position: 205
+        reference-base: C
+        type: SNP
+        variant-base: T
+acknowledgements:
+curators:
+  - Natalie Groves
+  - Ulf Schaefer
+  - Nick Loman

@@ -1,0 +1,177 @@
+unique-id: glorious-saucy
+phe-label: VUI202102/03
+alternate-names:
+- UK1188
+belongs-to-lineage:
+- PANGO: B.1.525
+description: This variant is a cluster of E484K containing genomes
+information-sources:
+-
+variants:
+- codon-change: TTC-TTT
+  gene: ORF1ab
+  one-based-reference-position: 1498
+  predicted-effect: synonymous
+  protein: nsp2
+  protein-codon-position: 231
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: GGA-GGG
+  gene: ORF1ab
+  one-based-reference-position: 1807
+  predicted-effect: synonymous
+  protein: nsp2
+  protein-codon-position: 334
+  reference-base: A
+  type: SNP
+  variant-base: G
+- codon-change: GTT-GTC
+  gene: ORF1ab
+  one-based-reference-position: 8593
+  predicted-effect: synonymous
+  protein: nsp4
+  protein-codon-position: 13
+  reference-base: T
+  type: SNP
+  variant-base: C
+- codon-change: TTC-TTT
+  gene: ORF1ab
+  one-based-reference-position: 9565
+  predicted-effect: synonymous
+  protein: nsp4
+  protein-codon-position: 337
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: P323F
+  codon-change: CCT-TTT
+  gene: ORF1ab
+  one-based-reference-position: 14407
+  predicted-effect: non-synonymous
+  protein: nsp12
+  protein-codon-position: 323
+  reference-base: CCT
+  type: MNP
+  variant-base: TTT
+- codon-change: GGC-GGT
+  gene: ORF1ab
+  one-based-reference-position: 18171
+  predicted-effect: synonymous
+  protein: nsp14
+  protein-codon-position: 44
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: TTA-TTG
+  gene: ORF1ab
+  one-based-reference-position: 20724
+  predicted-effect: synonymous
+  protein: nsp16
+  protein-codon-position: 22
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: Q52R
+  codon-change: CAG-CGG
+  gene: S
+  one-based-reference-position: 21717
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 52
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: Q677H
+  codon-change: CAG-CAC
+  gene: S
+  one-based-reference-position: 23593
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 677
+  reference-base: G
+  type: SNP
+  variant-base: C
+- amino-acid-change: F888L
+  codon-change: TTT-CTT
+  gene: S
+  one-based-reference-position: 24224
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 888
+  reference-base: T
+  type: SNP
+  variant-base: C
+- codon-change: TTC-TTT
+  gene: S
+  one-based-reference-position: 24748
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1062
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: L21F
+  codon-change: CTT-TTT
+  gene: E
+  one-based-reference-position: 26305
+  predicted-effect: non-synonymous
+  protein: envelope protein
+  protein-codon-position: 21
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: I82T
+  codon-change: ATC-ACC
+  gene: M
+  one-based-reference-position: 26767
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 82
+  reference-base: T
+  type: SNP
+  variant-base: C
+- codon-change: CCA-CCG
+  gene: N
+  one-based-reference-position: 28699
+  predicted-effect: synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 142
+  reference-base: A
+  type: SNP
+  variant-base: G
+- gene: .
+  one-based-reference-position: 29543
+  protein: .
+  reference-base: G
+  type: SNP
+  variant-base: G
+  predicted-effect: no-effect
+calling-definition:
+  confirmed:
+    mutations-required: 16
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Ulf Schaefer
+- Nick Loman

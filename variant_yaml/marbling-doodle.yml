@@ -1,0 +1,87 @@
+unique-id: marbling-doodle
+phe-label: VUI202101/01
+alternate-names:
+- Brazil 1
+belongs-to-lineage:
+- PANGO: P.2
+description: This variant became widespread in Rio de Janeiro, Brazil and imported cases have been reported in a number of other countries including the UK
+information-sources:
+-
+variants:
+- amino-acid-change: L205V
+  codon-change: TTA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 10667
+  predicted-effect: non-synonymous
+  protein: nsp5
+  protein-codon-position: 205
+  reference-base: T
+  type: SNP
+  variant-base: G
+- codon-change: ATC-ATT
+  gene: ORF1ab
+  one-based-reference-position: 11824
+  predicted-effect: synonymous
+  protein: nsp6
+  protein-codon-position: 284
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: GGA-GGG
+  gene: ORF1ab
+  one-based-reference-position: 12964
+  predicted-effect: synonymous
+  protein: nsp9
+  protein-codon-position: 93
+  reference-base: A
+  type: SNP
+  variant-base: G
+- codon-change: TTC-TTT
+  gene: ORF8
+  one-based-reference-position: 28253
+  predicted-effect: synonymous
+  protein: ORF8 protein
+  protein-codon-position: 120
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A119S
+  codon-change: GCT-TCT
+  gene: N
+  one-based-reference-position: 28628
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 119
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: M234I
+  codon-change: ATG-ATT
+  gene: N
+  one-based-reference-position: 28975
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 234
+  reference-base: G
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 6
+    indels-required: 0
+    allowed-wildtype: 1
+acknowledgments:
+curators:
+  - Natalie Groves
+  - Ulf Schaefer
+  - Nick Loman

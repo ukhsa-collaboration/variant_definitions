@@ -1,0 +1,174 @@
+unique-id: denture-daughter
+phe-label: VOC202012/01
+alternate-names:
+- UK variant
+- Kent variant
+- VOC1
+belongs-to-lineage:
+- PANGO: B.1.1.7
+- nextstrain: N501Y.V1
+description: This variant became widespread in the UK in the Winter of 2021 and is characterised by increased transmissibility.
+information-sources: 
+- https://www.gov.uk/government/publications/investigation-of-novel-sars-cov-2-variant-variant-of-concern-20201201
+- https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563
+variants:
+- gene: S
+  one-based-reference-position: 21764
+  protein: surface glycoprotein
+  reference-base: ATACATG
+  type: deletion
+  variant-base: A
+- gene: S
+  one-based-reference-position: 21990
+  protein: surface glycoprotein
+  reference-base: TTTA
+  type: deletion
+  variant-base: T
+- amino-acid-change: N501Y
+  codon-change: AAT-TAT
+  gene: S
+  one-based-reference-position: 23063
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 501
+  reference-base: A
+  type: SNP
+  variant-base: T
+- amino-acid-change: A570D
+  codon-change: GCT-GAT
+  gene: S
+  one-based-reference-position: 23271
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 570
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: P681H
+  codon-change: CCT-CAT
+  gene: S
+  one-based-reference-position: 23604
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 681
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: T716I
+  codon-change: ACA-ATA
+  gene: S
+  one-based-reference-position: 23709
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 716
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: S982A
+  codon-change: TCA-GCA
+  gene: S
+  one-based-reference-position: 24506
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 982
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: D1118H
+  codon-change: GAC-CAC
+  gene: S
+  one-based-reference-position: 24914
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1118
+  reference-base: G
+  type: SNP
+  variant-base: C
+- amino-acid-change: T183I
+  codon-change: ACT-ATT
+  gene: ORF1ab
+  one-based-reference-position: 3267
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 183
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A890D
+  codon-change: GCT-GAT
+  gene: ORF1ab
+  one-based-reference-position: 5388
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 890
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: I1412T
+  codon-change: ATA-ACA
+  gene: ORF1ab
+  one-based-reference-position: 6954
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1412
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: Q27*
+  codon-change: CAA-TAA
+  gene: ORF8
+  one-based-reference-position: 27972
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 27
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: R52I
+  codon-change: AGA-ATA
+  gene: ORF8
+  one-based-reference-position: 28048
+  predicted-effect: no-effect
+  protein: ORF8 protein
+  protein-codon-position: 52
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: Y73C
+  codon-change: TAC-TGC
+  gene: ORF8
+  one-based-reference-position: 28111
+  predicted-effect: no-effect
+  protein: ORF8 protein
+  protein-codon-position: 73
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: D3L
+  codon-change: GAT-CTA
+  gene: N
+  one-based-reference-position: 28280
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 3
+  reference-base: GAT
+  type: MNP
+  variant-base: CTA
+calling-definition:
+    confirmed:
+        mutations-required: 13
+        indels-required: 0
+        allowed-wildtype: 0
+    probable:
+        mutations-required: 5
+        indels-required: 0
+        allowed-wildtype: 0
+    low-qc:
+        mutations-required: 0
+        indels-required: 0
+        allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Ulf Schaefer
+- Nick Loman

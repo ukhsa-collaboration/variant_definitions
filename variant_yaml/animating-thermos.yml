@@ -1,0 +1,215 @@
+unique-id: animating-thermos
+phe-label: VUI202102/04
+alternate-names:
+- Debbie
+belongs-to-lineage:
+- PANGO: B.1.1.318
+description: This variant is a cluster of E484K containing genomes
+information-sources:
+-
+variants:
+- amino-acid-change: E378V
+  codon-change: GAA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 3852
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 378
+  reference-base: A
+  type: SNP
+  variant-base: T
+- codon-change: ATC-ATT
+  gene: ORF1ab
+  one-based-reference-position: 3961
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 414
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: K1693N
+  codon-change: AAG-AAT
+  gene: ORF1ab
+  one-based-reference-position: 7798
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1693
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: T173I
+  codon-change: ACC-ATC
+  gene: ORF1ab
+  one-based-reference-position: 9072
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 173
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A446V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 9891
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 446
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: T21I
+  codon-change: ACT-ATT
+  gene: ORF1ab
+  one-based-reference-position: 10116
+  predicted-effect: non-synonymous
+  protein: nsp5
+  protein-codon-position: 21
+  reference-base: C
+  type: SNP
+  variant-base: T
+- gene: ORF1ab
+  one-based-reference-position: 11287
+  protein: nsp6
+  reference-base: GTCTGGTTTT
+  type: deletion
+  variant-base: G
+- amino-acid-change: V320M
+  codon-change: GTG-ATG
+  gene: ORF1ab
+  one-based-reference-position: 20578
+  predicted-effect: non-synonymous
+  protein: nsp15
+  protein-codon-position: 320
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: T95I
+  codon-change: ACT-ATT
+  gene: S
+  one-based-reference-position: 21846
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 95
+  reference-base: C
+  type: SNP
+  variant-base: T
+- gene: S
+  one-based-reference-position: 21990
+  protein: surface glycoprotein
+  reference-base: TTTA
+  type: deletion
+  variant-base: T
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: GCT-GCC
+  gene: S
+  one-based-reference-position: 23287
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 575
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: P681H
+  codon-change: CCT-CAT
+  gene: S
+  one-based-reference-position: 23604
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 681
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: D796H
+  codon-change: GAT-CAT
+  gene: S
+  one-based-reference-position: 23948
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 796
+  reference-base: G
+  type: SNP
+  variant-base: C
+- codon-change: TCC-TCT
+  gene: S
+  one-based-reference-position: 24382
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 940
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: ACC-ACA
+  gene: S
+  one-based-reference-position: 25276
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1238
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: I82T
+  codon-change: ATC-ACC
+  gene: M
+  one-based-reference-position: 26767
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 82
+  reference-base: T
+  type: SNP
+  variant-base: C
+- gene: ORF7b
+  one-based-reference-position: 27887
+  protein: ORF7b
+  reference-base: AAACGAACATGAAATT
+  type: deletion
+  variant-base: A
+- amino-acid-change: E106*
+  codon-change: GAA-TAA
+  gene: ORF8
+  one-based-reference-position: 28209
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 106
+  reference-base: G
+  type: SNP
+  variant-base: T
+- gene: .
+  one-based-reference-position: 28271
+  protein: .
+  reference-base: A
+  type: SNP
+  variant-base: G
+  predicted-effect: no-effect
+- gene: N
+  one-based-reference-position: 28895
+  protein: nucleocapsid phosphoprotein
+  reference-base: GCTA
+  type: deletion
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 17
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Ulf Schaefer
+- Nick Loman

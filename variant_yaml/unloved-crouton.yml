@@ -1,0 +1,75 @@
+unique-id: unloved-crouton
+phe-label: VOC202102/02
+alternate-names:
+- Bristol
+- VOC1 + E484K
+belongs-to-lineage:
+- PANGO: B.1.1.7
+description: This variant is a cluster of B.1.1.7 (VOC202012/01) that contains E484K and is associated with the Bristol area
+information-sources:
+-
+variants:
+- codon-change: AAC-AAT
+  gene: ORF1ab
+  one-based-reference-position: 7843
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 1708
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: GAC-GAT
+  gene: M
+  one-based-reference-position: 27092
+  predicted-effect: synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 190
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A173V
+  codon-change: GCA-GTA
+  gene: N
+  one-based-reference-position: 28791
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 173
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A398T
+  codon-change: GCA-ACA
+  gene: N
+  one-based-reference-position: 29465
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 398
+  reference-base: G
+  type: SNP
+  variant-base: A
+calling-definition:
+  confirmed:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Ulf Schaefer
+- Nick Loman
+
+

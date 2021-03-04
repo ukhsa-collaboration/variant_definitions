@@ -1,0 +1,178 @@
+unique-id: slinky-antennae
+phe-label: VOC202101/02
+alternate-names:
+- Brazil 2
+belongs-to-lineage:
+- PANGO: P.1
+description: This variant was first identified in Japan in travellers from Brazil and is associated with Manaus in the Amazonas region assoicated with a severe second wave of COVID-19
+information-sources:
+-
+variants:
+- codon-change: GAT-GAC
+  gene: ORF1ab
+  one-based-reference-position: 733
+  predicted-effect: synonymous
+  protein: nsp1
+  protein-codon-position: 156
+  reference-base: T
+  type: SNP
+  variant-base: C
+- codon-change: GAC-GAT
+  gene: ORF1ab
+  one-based-reference-position: 2749
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 10
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: S370L
+  codon-change: TCA-TTA
+  gene: ORF1ab
+  one-based-reference-position: 3828
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 370
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: K977Q
+  codon-change: AAA-CAA
+  gene: ORF1ab
+  one-based-reference-position: 5648
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 977
+  reference-base: A
+  type: SNP
+  variant-base: C
+- gene: ORF1ab
+  one-based-reference-position: 11287
+  protein: nsp6
+  reference-base: GTCTGGTTTT
+  type: deletion
+  variant-base: G
+- codon-change: TAC-TAT
+  gene: ORF1ab
+  one-based-reference-position: 12778
+  predicted-effect: synonymous
+  protein: nsp9
+  protein-codon-position: 31
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: T140I
+  codon-change: ACA-ATA
+  gene: ORF1ab
+  one-based-reference-position: 13860
+  predicted-effect: non-synonymous
+  protein: nsp12
+  protein-codon-position: 140
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: T20N
+  codon-change: ACC-AAC
+  gene: S
+  one-based-reference-position: 21621
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 20
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: P26S
+  codon-change: CCT-TCT
+  gene: S
+  one-based-reference-position: 21638
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 26
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: K417T
+  codon-change: AAG-ACG
+  gene: S
+  one-based-reference-position: 22812
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 417
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: N501Y
+  codon-change: AAT-TAT
+  gene: S
+  one-based-reference-position: 23063
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 501
+  reference-base: A
+  type: SNP
+  variant-base: T
+- amino-acid-change: T1027I
+  codon-change: ACT-ATT
+  gene: S
+  one-based-reference-position: 24642
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1027
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: E92K
+  codon-change: GAA-AAA
+  gene: ORF8
+  one-based-reference-position: 28167
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 92
+  reference-base: G
+  type: SNP
+  variant-base: A
+- gene: .
+  one-based-reference-position: 28262
+  protein: .
+  reference-base: G
+  type: insertion
+  variant-base: GAACA
+  predicted-effect: no-effect
+- amino-acid-change: P80R
+  codon-change: CCA-CGA
+  gene: N
+  one-based-reference-position: 28512
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 80
+  reference-base: C
+  type: SNP
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 14
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+  - Natalie Groves
+  - Ulf Schaefer
+  - Nick Loman
