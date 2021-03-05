@@ -6,7 +6,8 @@ belongs-to-lineage:
 - PANGO: P.1
 description: This variant was first identified in Japan in travellers from Brazil and is associated with Manaus in the Amazonas region assoicated with a severe second wave of COVID-19
 information-sources:
--
+- https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586
+- https://cov-lineages.org/global_report_P.1.html
 variants:
 - codon-change: GAT-GAC
   gene: ORF1ab
@@ -61,14 +62,14 @@ variants:
   reference-base: C
   type: SNP
   variant-base: T
-- amino-acid-change: T140I
-  codon-change: ACA-ATA
+- codon-change: GAC-GAT
   gene: ORF1ab
   one-based-reference-position: 13860
-  predicted-effect: non-synonymous
+  predicted-effect: synonymous
   protein: nsp12
   protein-codon-position: 140
   reference-base: C
+  snp-codon-position: 3
   type: SNP
   variant-base: T
 - amino-acid-change: T20N
