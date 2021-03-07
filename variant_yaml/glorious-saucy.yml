@@ -155,7 +155,7 @@ variants:
   protein: .
   reference-base: G
   type: SNP
-  variant-base: G
+  variant-base: T
   predicted-effect: no-effect
 calling-definition:
   confirmed:
