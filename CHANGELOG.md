@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 - 2021-03-07
+### Changed
+- `glorious-saucy`: fix incorrect variant base
+
 ## 0.1.1 - 2021-03-05
 ### Changed
 - `slinky-antennae`: Fix amino acid definition for nsp12 mutation incorporating slippage annotation
