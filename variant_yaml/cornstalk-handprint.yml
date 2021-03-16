@@ -1,0 +1,108 @@
+unique-id: cornstalk-handprint
+phe-label: VUI-21MAR-01
+alternate-names:
+- VUI202103/01
+belongs-to-lineage:
+- PANGO: B.1.324.1
+description: First detected in the UK in a traveller from Antigua.
+information-sources:
+- https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/968581/Variants_of_Concern_VOC_Technical_Briefing_7_England.pdf
+variants:
+- amino-acid-change: G76S
+  codon-change: GGC-AGC
+  gene: ORF1ab
+  one-based-reference-position: 2945
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 76
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: GAT-GAC
+  gene: ORF1ab
+  one-based-reference-position: 8704 
+  predicted-effect: synonymous
+  protein: nsp4
+  protein-codon-position: 50
+  reference-base: T
+  type: SNP
+  variant-base: C
+- codon-change: GAC-GAT
+  gene: ORF1ab
+  one-based-reference-position: 8986
+  predicted-effect: synonymous
+  protein: nsp4
+  protein-codon-position: 144
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: AAG-AAA
+  gene: ORF1ab
+  one-based-reference-position: 13617
+  predicted-effect: synonymous
+  protein: nsp12
+  protein-codon-position: 59
+  reference-base: G
+  type: SNP
+  variant-base: A 
+- amino-acid-change: G206C
+  codon-change: GGT-TGT
+  gene: ORF1ab
+  one-based-reference-position: 16852
+  predicted-effect: non-synonymous
+  protein: nsp13
+  protein-codon-position: 206
+  reference-base: G
+  type: SNP
+  variant-base: T
+- codon-change: CTA-TTA
+  gene: S
+  one-based-reference-position: 22388
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 276
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- gene: ORF8
+  one-based-reference-position: 27922
+  protein: ORF8 Protein
+  reference-base: TCACAACTGTAGCTGCATTTCACCAAGAATGTAGT
+  type: deletion
+  variant-base: A
+- gene: .
+  one-based-reference-position: 28272
+  predicted-effect: synonymous
+  protein: .
+  reference-base: G
+  type: SNP
+  variant-base: A
+calling-definition:
+  confirmed:
+    mutations-required: 8
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+   mutations-required: 5
+   indels-required: 0
+   allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Ulf Schaefer
+- Nick Loman
+- Nick Ellaby

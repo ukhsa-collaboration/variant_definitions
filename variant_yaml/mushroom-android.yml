@@ -1,0 +1,193 @@
+unique-id: mushroom-android 
+phe-label: VUI-21MAR-02
+alternate-names:
+- VUI202103/02
+- Philippines
+belongs-to-lineage:
+- PANGO: P.3
+description: This variant appeared to be closely associated with the Phillipines and widely divergent from anything else upon discovery.
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/27
+- https://www.medrxiv.org/content/10.1101/2021.03.03.21252812v2
+variants:
+- amino-acid-change: D736G
+  codon-change: GAC-GGC
+  gene: ORF1ab
+  one-based-reference-position: 4926
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 736
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: L438P
+  codon-change: CTT-CCT
+  gene: ORF1ab
+  one-based-reference-position: 9867
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 438
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: D112E
+  codon-change: GAC-GAA
+  gene: ORF1ab
+  one-based-reference-position: 11308
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 112
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: L71F
+  codon-change: CTT-TTT
+  gene: ORF1ab
+  one-based-reference-position: 12053
+  predicted-effect: non-synonymous
+  protein: nsp7
+  protein-codon-position: 71
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A368V
+  codon-change: GCA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 17339
+  predicted-effect: non-synonymous
+  protein: nsp13
+  protein-codon-position: 368
+  reference-base: C
+  type: SNP
+  variant-base: T
+- gene: S
+  one-based-reference-position: 21980
+  protein: surface glycoprotein
+  reference-base: TTTTTGGGTG
+  type: deletion
+  variant-base: T
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: N501Y
+  codon-change: AAT-TAT
+  gene: S
+  one-based-reference-position: 23063
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 501
+  reference-base: A
+  type: SNP
+  variant-base: T
+- amino-acid-change: P681H
+  codon-change: CCT-CAT
+  gene: S
+  one-based-reference-position: 23604
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 681
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: E1092K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 24836
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1092
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: H1101Y
+  codon-change: CAC-TAC
+  gene: S
+  one-based-reference-position: 24863
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1101
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: V1176F
+  codon-change: GTT-TTT
+  gene: S
+  one-based-reference-position: 25088
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1176
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: K2Q
+  codon-change: AAA-CAA
+  gene: ORF8
+  one-based-reference-position: 27897
+  predicted-effect: non-synonymous
+  protein: ORF8
+  protein-codon-position: 2
+  reference-base: A
+  type: SNP
+  variant-base: C
+- codon-change: TCC-TCA
+  gene: ORF1ab
+  one-based-reference-position: 7564
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 1615
+  reference-base: C
+  type: SNP
+  variant-base: A
+- codon-change: AAC-AAT
+  gene: ORF1ab
+  one-based-reference-position: 12049
+  predicted-effect: synonymous
+  protein: nsp7
+  protein-codon-position: 71
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: GGT-GGC
+  gene: S
+  one-based-reference-position: 23341
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 593
+  reference-base: T
+  type: SNP
+  variant-base: C
+- codon-change: TCT-TCA
+  gene: S
+  one-based-reference-position: 24187
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 875
+  reference-base: T
+  type: SNP
+  variant-base: A
+calling-definition:
+  confirmed:
+    mutations-required: 16
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 7
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+  - Nick Ellaby
+  - Natalie Groves
+  - Ulf Schaefer
+  - Nick Loman
