@@ -1,6 +1,7 @@
 # Changelog
 
-## 0.2.2 - 2021-13-16
+## 0.2.2 - 2021-13-17
+### Changed
 - `cornstalk-handprint`: removed `probable` definition, there is no probable definition for this variant
 
 ## 0.2.1 - 2021-13-16
