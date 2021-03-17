@@ -92,10 +92,6 @@ calling-definition:
     mutations-required: 8
     indels-required: 0
     allowed-wildtype: 0
-  probable:
-   mutations-required: 5
-   indels-required: 0
-   allowed-wildtype: 0
   low-qc:
     mutations-required: 0
     indels-required: 0

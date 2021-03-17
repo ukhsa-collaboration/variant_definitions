@@ -1,6 +1,10 @@
 # Changelog
 
+## 0.2.2 - 2021-13-16
+- `cornstalk-handprint`: removed `probable` definition, there is no probable definition for this variant
+
 ## 0.2.1 - 2021-13-16
+
 ### Changed
 - `cornstalk-handprint`: new definition (VUI-21MAR-01)
 - `mushroom-android`: new definition (VUI-21MAR-02)
