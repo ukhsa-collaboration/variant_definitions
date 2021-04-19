@@ -9,16 +9,6 @@ description: This variant is a cluster of E484K containing genomes
 information-sources:
 -
 variants:
-- amino-acid-change: E378V
-  codon-change: GAA-GTA
-  gene: ORF1ab
-  one-based-reference-position: 3852
-  predicted-effect: non-synonymous
-  protein: nsp3
-  protein-codon-position: 378
-  reference-base: A
-  type: SNP
-  variant-base: T
 - codon-change: ATC-ATT
   gene: ORF1ab
   one-based-reference-position: 3961
@@ -139,15 +129,6 @@ variants:
   reference-base: G
   type: SNP
   variant-base: C
-- codon-change: TCC-TCT
-  gene: S
-  one-based-reference-position: 24382
-  predicted-effect: synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 940
-  reference-base: C
-  type: SNP
-  variant-base: T
 - codon-change: ACC-ACA
   gene: S
   one-based-reference-position: 25276
@@ -198,7 +179,7 @@ variants:
   variant-base: G
 calling-definition:
   confirmed:
-    mutations-required: 17
+    mutations-required: 15
     indels-required: 0
     allowed-wildtype: 0
   probable:

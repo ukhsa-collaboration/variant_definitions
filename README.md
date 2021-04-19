@@ -19,6 +19,7 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/marbling-doodle.yml">VUI-21JAN-01</a> | PANGO: P.2 | This variant became widespread in Rio de Janeiro, Brazil and imported cases have been reported in a number of other countries including the UK |
 | <a href="variant_yaml/cornstalk-handprint.yml">VUI-21MAR-01</a> | PANGO: B.1.324.1 | First detected in the UK in a traveller from Antigua. |
 | <a href="variant_yaml/mushroom-android.yml">VUI-21MAR-02</a> | PANGO: P.3 | This variant appeared to be closely associated with the Phillipines and widely divergent from anything else upon discovery. |
+| <a href="variant_yaml/habitable-pasty.yml">VUI-21APR-01</a> | PANGO: B.1.617 | This variant is reported to be circulating in India and has been exported to other countries. |
 
 ## File format definition
 
@@ -35,7 +36,7 @@ You can check that files are correct using the `yaml-validator.py` script.
 | description                  | yes      | text         | Description of the variant                                   |
 | information-sources          | no       | list of URLs | Useful references (not exhaustive) to official information sources about the discovery and monitoring of this reference |
 | acknowledgements             | no       | list of text | Acknowledgements to people or institutions involved in creating this definition |
-| curaotrs                     | no       | list of text | List of individuals responsible for maintaining this definition file |
+| curators                     | no       | list of text | List of individuals responsible for maintaining this definition file |
 | **variants** block           | yes      | list of dict | List of mutations (SNPs, insertions and deletions) defining this variant |
 | amino-acid-change            | no       | text         | amino acid change, relative to coordinates of gene, e.g. N501Y |
 | codon-change                 | yes      | text         | codon change encoded as reference codon - alternate codon e.g. "AAT-TAT" |

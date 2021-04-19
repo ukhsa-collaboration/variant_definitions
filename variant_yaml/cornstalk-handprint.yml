@@ -84,9 +84,9 @@ variants:
   one-based-reference-position: 28272
   predicted-effect: synonymous
   protein: .
-  reference-base: G
+  reference-base: A
   type: SNP
-  variant-base: A
+  variant-base: T
 calling-definition:
   confirmed:
     mutations-required: 8

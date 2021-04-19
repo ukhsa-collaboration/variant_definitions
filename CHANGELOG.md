@@ -1,14 +1,23 @@
 # Changelog
 
-## 0.2.2 - 2021-13-17
+## 0.3 - 2021-04-19
+
+### Added
+- `habitable-pasty`: new definition (VUI-21APR-01)
+### Changed
+- `animating-thermos`: removed positions 3852 and 24382
+- `cornstalk-handprint`: fixed erroneous mutations at 28272
+
+## 0.2.2 - 2021-03-17
 ### Changed
 - `cornstalk-handprint`: removed `probable` definition, there is no probable definition for this variant
 
-## 0.2.1 - 2021-13-16
+## 0.2.1 - 2021-03-16
 
-### Changed
+### Added
 - `cornstalk-handprint`: new definition (VUI-21MAR-01)
 - `mushroom-android`: new definition (VUI-21MAR-02)
+### Changed
 - renamed variants according to updated PHE nomenclature (VOC/VUI-YYMMM-NN)
 
 ## 0.1.2 - 2021-03-07
