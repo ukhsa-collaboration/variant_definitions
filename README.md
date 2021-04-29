@@ -63,6 +63,7 @@ For further information, help or assistance contact PHE Genomics Cell at <covid1
 ## Contributors
 
  - Matt Bull (PHW)
+ - Jeff Barrett (WTSI)
  - Meera Chand (PHE)
  - Tom Connor (PHW)
  - Nick Ellaby (PHE)
