@@ -22,7 +22,6 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/habitable-pasty.yml">VUI-21APR-01</a> | PANGO: B.1.617.1 | This variant is reported to be circulating in India and has been exported to other countries. |
 | <a href="variant_yaml/empathy-serve.yml">VUI-21APR-02</a> | PANGO: B.1.617.2 | This variant is reported to be circulating in India and has been exported to other countries. |
 | <a href="variant_yaml/spherical-trial.yml">VUI-21APR-03</a> | PANGO: B.1.617.3 | This variant is reported to be circulating in India and has been exported to other countries. |
-| <a href="variant_yaml/doom-harbinger.yml">E484K</a> | PANGO: Multiple | Catch-all definition to identify sequences with the E484K spike variant |
 
 ## File format definition
 
