@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.2 - 2021-04-29
+### Added
+- `empathy-serve`: new definition (VUI-21APR-02)
+- `spherical-trial`: new definition (VUI-21APR-03)
+
+### Changed
+- `habitable-pasty`: reflects B.1.617.1, removed mutations 21895 and 22022
+ 
+## 0.3.1
+
+### Changed
+- `glorious-saucy`: remove invariant base
+
 ## 0.3 - 2021-04-19
 
 ### Added

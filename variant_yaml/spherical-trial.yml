@@ -1,0 +1,198 @@
+unique-id: spherical-trial
+phe-label: VUI-21APR-03
+alternate-names:
+- India
+- B.1.617 Clade 3
+belongs-to-lineage:
+- PANGO: B.1.617.3
+description: This variant is reported to be circulating in India and has been exported to other countries.
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/49
+variants:
+- codon-change: TTC-TTT
+  gene: ORF1ab
+  one-based-reference-position: 835
+  predicted-effect: synonymous
+  protein: nsp2
+  protein-codon-position: 10
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: A1526V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 7296
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1526
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: T1830I
+  codon-change: ACT-ATT
+  gene: ORF1ab
+  one-based-reference-position: 8208
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1830
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A194S
+  codon-change: GCT-TCT
+  gene: ORF1ab
+  one-based-reference-position: 10634
+  predicted-effect: non-synonymous
+  protein: nsp5
+  protein-codon-position: 194
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: A117V
+  codon-change: GCA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 11322
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 117
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: TGC-TGT
+  gene: ORF1ab
+  one-based-reference-position: 16293
+  predicted-effect: synonymous
+  protein: nsp13
+  protein-codon-position: 19
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: T19R
+  codon-change: ACA-AGA
+  gene: S
+  one-based-reference-position: 21618
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 19
+  reference-base: C
+  type: SNP
+  variant-base: G
+- amino-acid-change: L452R
+  codon-change: CTG-CGG
+  gene: S
+  one-based-reference-position: 22917
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 452
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: E484Q
+  codon-change: GAA-CAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: C
+- amino-acid-change: P681R
+  codon-change: CCT-CGT
+  gene: S
+  one-based-reference-position: 23604
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 681
+  reference-base: C
+  type: SNP
+  variant-base: G
+- amino-acid-change: D950N
+  codon-change: GAT-AAT
+  gene: S
+  one-based-reference-position: 24410
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 950
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: GAT-GAC
+  gene: ORF6
+  one-based-reference-position: 27384
+  predicted-effect: synonymous
+  protein: ORF6 protein
+  protein-codon-position: 61
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: C
+- amino-acid-change: V82A
+  codon-change: GTT-GCT
+  gene: ORF7a
+  one-based-reference-position: 27638
+  predicted-effect: non-synonymous
+  protein: ORF7a protein
+  protein-codon-position: 82
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: T26I
+  codon-change: ACT-ATT
+  gene: ORF8
+  one-based-reference-position: 27970
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 26
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: P67S
+  codon-change: CCT-TCT
+  gene: N
+  one-based-reference-position: 28472
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 67
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: R203M
+  codon-change: AGG-ATG
+  gene: N
+  one-based-reference-position: 28881
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 203
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: D377Y
+  codon-change: GAT-TAT
+  gene: N
+  one-based-reference-position: 29402
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 377
+  reference-base: G
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 17
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 8
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Jeff Barrett

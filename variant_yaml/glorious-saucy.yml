@@ -52,9 +52,9 @@ variants:
   predicted-effect: non-synonymous
   protein: nsp12
   protein-codon-position: 323
-  reference-base: CCT
+  reference-base: CC
   type: MNP
-  variant-base: TTT
+  variant-base: TT
 - codon-change: GGC-GGT
   gene: ORF1ab
   one-based-reference-position: 18171
