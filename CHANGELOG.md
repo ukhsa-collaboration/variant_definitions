@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.3 - 2021-05-07
+
+### Added
+- `harbor-sprite`: E484K mutation definition
+
+### Changed
+- `empathy-serve`: updated PHE label to VOC-21APR-02 to reflect VOC status
+
 ## 0.3.2 - 2021-04-29
 ### Added
 - `empathy-serve`: new definition (VUI-21APR-02)

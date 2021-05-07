@@ -1,8 +1,9 @@
 unique-id: empathy-serve
-phe-label: VUI-21APR-02
+phe-label: VOC-21APR-02
 alternate-names:
 - India
 - B.1.617 Clade 2
+- VUI-21APR-02
 belongs-to-lineage:
 - PANGO: B.1.617.2
 description: This variant is reported to be circulating in India and has been exported to other countries.

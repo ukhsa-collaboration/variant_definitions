@@ -1,0 +1,32 @@
+unique-id: harbor-sprite
+phe-label: E484K
+alternate-names:
+- E484K
+belongs-to-lineage:
+- PANGO: None
+description: E484K containing sequences
+information-sources:
+-
+variants:
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+calling-definition:
+  confirmed:
+    mutations-required: 1
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Richard Myers
