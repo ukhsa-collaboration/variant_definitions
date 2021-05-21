@@ -1,0 +1,273 @@
+unique-id: dandelion-marshy
+phe-label: VUI-21MAY-01
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: AV.1
+description: This variant has been observed in a growing cluster in the UK
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/73
+variants:
+variants:
+- codon-change: GTT-GTC
+  gene: ORF1ab
+  one-based-reference-position: 772
+  predicted-effect: synonymous
+  protein: nsp1
+  protein-codon-position: 169
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: C
+- amino-acid-change: G339S
+  codon-change: GGT-AGT
+  gene: ORF1ab
+  one-based-reference-position: 1820
+  predicted-effect: non-synonymous
+  protein: nsp2
+  protein-codon-position: 339
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: A411V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 2037
+  predicted-effect: non-synonymous
+  protein: nsp2
+  protein-codon-position: 411
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: H342Y
+  codon-change: CAT-TAT
+  gene: ORF1ab
+  one-based-reference-position: 3743
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 342
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: P822L
+  codon-change: CCT-CTT
+  gene: ORF1ab
+  one-based-reference-position: 5184
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 822
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: N1587S
+  codon-change: AAT-AGT
+  gene: ORF1ab
+  one-based-reference-position: 7479
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1587
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: A446V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 9891
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 446
+  reference-base: C
+  type: SNP
+  variant-base: T
+- gene: ORF1ab
+  one-based-reference-position: 11287
+  protein: nsp6
+  reference-base: GTCTGGTTTT
+  type: deletion
+  variant-base: G
+- codon-change: GGT-GGC
+  gene: ORF1ab
+  one-based-reference-position: 11503
+  predicted-effect: synonymous
+  protein: nsp6
+  protein-codon-position: 177
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: C
+- amino-acid-change: S434A
+  codon-change: TCT-GCT
+  gene: ORF1ab
+  one-based-reference-position: 14740
+  predicted-effect: non-synonymous
+  protein: nsp12
+  protein-codon-position: 434
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: A119V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 18395
+  predicted-effect: non-synonymous
+  protein: nsp14
+  protein-codon-position: 119
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: D80G
+  codon-change: GAT-GGT
+  gene: S
+  one-based-reference-position: 21801
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 80
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: T95I
+  codon-change: ACT-ATT
+  gene: S
+  one-based-reference-position: 21846
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 95
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: G142D
+  codon-change: GGT-GAT
+  gene: S
+  one-based-reference-position: 21987
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 142
+  reference-base: G
+  type: SNP
+  variant-base: A
+- gene: S
+  one-based-reference-position: 21990
+  protein: surface glycoprotein
+  reference-base: TTTA
+  type: deletion
+  variant-base: T
+- codon-change: TCC-TCT
+  gene: S
+  one-based-reference-position: 22687
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 375
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: N439K
+  codon-change: AAC-AAG
+  gene: S
+  one-based-reference-position: 22879
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 439
+  reference-base: C
+  type: SNP
+  variant-base: G
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: P681H
+  codon-change: CCT-CAT
+  gene: S
+  one-based-reference-position: 23604
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 681
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: I1130V
+  codon-change: ATA-GTA
+  gene: S
+  one-based-reference-position: 24950
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1130
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: D1139H
+  codon-change: GAT-CAT
+  gene: S
+  one-based-reference-position: 24977
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1139
+  reference-base: G
+  type: SNP
+  variant-base: C
+- gene: ORF3a
+  one-based-reference-position: 26157
+  protein: ORF3a protein
+  reference-base: TGTTA
+  type: deletion
+  variant-base: T
+- amino-acid-change: A63T
+  codon-change: GCT-ACT
+  gene: M
+  one-based-reference-position: 26709
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 63
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: ATC-ATT
+  gene: ORF6
+  one-based-reference-position: 27297
+  predicted-effect: synonymous
+  protein: ORF6 protein
+  protein-codon-position: 32
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- gene: .
+  one-based-reference-position: 28270
+  protein: .
+  reference-base: TAA
+  type: deletion
+  variant-base: T
+- amino-acid-change: I157V
+  codon-change: ATC-GTT
+  gene: N
+  one-based-reference-position: 28742
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 157
+  reference-base: ATC
+  type: MNP
+  variant-base: GTT
+calling-definition:
+  confirmed:
+    mutations-required: 22
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 7
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+- Matthew Parker
+curators:
+- Natalie Groves
+

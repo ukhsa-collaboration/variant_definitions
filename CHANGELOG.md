@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.4 - 2021-05-21
+### Added
+- `dandelion-marshy`: added VUI-21MAY-01 (AV.1)
+
 ## 0.3.3 - 2021-05-07
 
 ### Added
