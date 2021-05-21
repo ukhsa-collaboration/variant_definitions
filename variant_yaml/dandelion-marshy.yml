@@ -8,7 +8,6 @@ description: This variant has been observed in a growing cluster in the UK
 information-sources:
 - https://github.com/cov-lineages/pango-designation/issues/73
 variants:
-variants:
 - codon-change: GTT-GTC
   gene: ORF1ab
   one-based-reference-position: 772
