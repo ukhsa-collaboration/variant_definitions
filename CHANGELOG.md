@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.5 - 2021-05-21
+### Changed
+- Fixed duplicate `variant` block
+
 ## 0.3.4 - 2021-05-21
 ### Added
 - `dandelion-marshy`: added VUI-21MAY-01 (AV.1)
