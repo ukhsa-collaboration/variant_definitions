@@ -1,0 +1,132 @@
+unique-id: paragraph-footwork
+phe-label: VUI-21MAY-02
+alternate-names:
+- C.36
+belongs-to-lineage:
+- PANGO: C.36.3
+description: This variant is reported in multiple countries and has been seen to be expanding since the beginning of April.
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/80
+variants:
+- amino-acid-change: D217N
+  codon-change: GAT-AAT
+  gene: ORF1ab
+  one-based-reference-position: 9203
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 217
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: S118L
+  codon-change: TCA-TTA
+  gene: ORF1ab
+  one-based-reference-position: 11325
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 118
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: D105Y
+  codon-change: GAC-TAC
+  gene: ORF1ab
+  one-based-reference-position: 16549
+  predicted-effect: non-synonymous
+  protein: nsp13
+  protein-codon-position: 105
+  reference-base: G
+  type: SNP
+  variant-base: T
+- gene: S
+  one-based-reference-position: 21764
+  protein: surface glycoprotein
+  reference-base: ATACATG
+  type: deletion
+  variant-base: A
+- amino-acid-change: S12F
+  codon-change: TCT-TTT
+  gene: S
+  one-based-reference-position: 21597
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 12
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: W152R
+  codon-change: TGG-AGG
+  gene: S
+  one-based-reference-position: 22016
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 152
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: R346S
+  codon-change: AGA-AGC
+  gene: S
+  one-based-reference-position: 22600
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 346
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: L452R
+  codon-change: CTG-CGG
+  gene: S
+  one-based-reference-position: 22917
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 452
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: Q677H
+  codon-change: CAG-CAT
+  gene: S
+  one-based-reference-position: 23593
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 677
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: A899S
+  codon-change: GCT-TCT
+  gene: S
+  one-based-reference-position: 24257
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 899
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: I82T
+  codon-change: ATC-ACC
+  gene: M
+  one-based-reference-position: 26767
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 82
+  reference-base: T
+  type: SNP
+  variant-base: C
+calling-definition:
+  confirmed:
+    mutations-required: 10
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 6
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
