@@ -81,6 +81,10 @@ calling-definition:
     mutations-required: 6
     indels-required: 0
     allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
 acknowledgments:
 curators:
   - Natalie Groves

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4 - 2021-05-21
+### Added
+- `paragraph-footwork`: added VUI-21MAY-02 (C.36.3)
+
+### Changed
+- added `low-qc` for marbling-doodle
+
+### Changed
+
 ## 0.3.5 - 2021-05-21
 ### Changed
 - Fixed duplicate `variant` block
