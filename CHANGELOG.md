@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.1 - 2021-07-06
+### Added
+- `perfume-sprint`: added VUI-21JUN-01 (lambda/C.37)
+
 ## 0.4 - 2021-05-21
 ### Added
 - `paragraph-footwork`: added VUI-21MAY-02 (C.36.3)

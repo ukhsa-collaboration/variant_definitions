@@ -25,6 +25,8 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/harbor-sprite.yml">E484K</a> | PANGO: Multiple | Catch-all definition to identify sequences with the E484K spike variant |
 | <a href="variant_yaml/dandelion-marshy.yml">VUI-21MAY-01</a> | PANGO: AV.1 | This variant has been observed in a growing cluster in the UK |
 | <a href="variant_yaml/paragraph-footwork.yml">VUI-21MAY-02</a> | PANGO: C.36.3 | This variant has been observed in a growing number of imported cases in the UK |
+| <a href="variant_yaml/perfume-sprint.yml">VUI-21JUN-01</a> | PANGO: C.37 | This variant is a clade first associated with South America but now observed in USA and Europe |
+
 ## File format definition
 
 Each variant is stored one-per-file in the `variant_yaml` directory. Each file should be syntactically correct YAML. The file should be named according to its `unique-id` (unique identifer) with the suffix `.yml`.
