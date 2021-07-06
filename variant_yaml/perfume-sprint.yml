@@ -1,0 +1,130 @@
+unique-id: perfume-sprint
+phe-label: VUI-21JUN-01
+who-label: Lambda
+alternate-names:
+belongs-to-lineage:
+- PANGO: C.37
+- WHO: Lambda
+description: This variant is a clade first associated with South America but now observed in USA and Europe
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/52
+variants:
+- amino-acid-change: F1569V
+  codon-change: TTT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 7424
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1569
+  reference-base: T
+  type: SNP
+  variant-base: G
+- codon-change: CTA-TTA
+  gene: ORF1ab
+  one-based-reference-position: 9857
+  predicted-effect: synonymous
+  protein: nsp4
+  protein-codon-position: 435
+  reference-base: C
+  snp-codon-position: 1
+  type: SNP
+  variant-base: T
+- amino-acid-change: L438P
+  codon-change: CTT-CCT
+  gene: ORF1ab
+  one-based-reference-position: 9867
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 438
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: T492I
+  codon-change: ACC-ATC
+  gene: ORF1ab
+  one-based-reference-position: 10029
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 492
+  reference-base: C
+  type: SNP
+  variant-base: T
+- gene: ORF1ab
+  one-based-reference-position: 11287
+  protein: nsp6
+  reference-base: GTCTGGTTTT
+  type: deletion
+  variant-base: G
+- gene: S
+  one-based-reference-position: 22298
+  protein: surface glycoprotein
+  reference-base: AGAAGTTATTTGACTCCTGGTG
+  type: deletion
+  variant-base: A
+- amino-acid-change: L452Q
+  codon-change: CTG-CAG
+  gene: S
+  one-based-reference-position: 22917
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 452
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: F490S
+  codon-change: TTT-TCT
+  gene: S
+  one-based-reference-position: 23031
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 490
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: T859N
+  codon-change: ACT-AAT
+  gene: S
+  one-based-reference-position: 24138
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 859
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: G214C
+  codon-change: GGC-TGC
+  gene: N
+  one-based-reference-position: 28913
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 214
+  reference-base: G
+  type: SNP
+  variant-base: T
+- codon-change: TTC-TTT
+  gene: N
+  one-based-reference-position: 29311
+  predicted-effect: synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 346
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 9
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Francesco Strino
