@@ -38,6 +38,7 @@ You can check that files are correct using the `yaml-validator.py` script.
 | ---------------------------- | -------- | ------------ | ------------------------------------------------------------ |
 | unique-id                    | yes      | text         | A unique identifier for this definition file, should never change. |
 | phe-label                    | yes      | text         | The official Public Health England description for this variant, may change over time (e.g. upgrade VUI to VOC) |
+| who-label                    | no       | text         | The official World Health Organisation name for this variant, if any |
 | alternate-names              | no       | list of text | Synonyms for this variant for ease of referencing            |
 | belongs-to-lineage           | no       | list of dict | Lineage descriptions for commonly used lineage naming schemes e.g. PANGO and nextstrain |
 | description                  | yes      | text         | Description of the variant                                   |
