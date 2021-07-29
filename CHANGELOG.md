@@ -4,6 +4,7 @@
 
 ### Added
 - `kelp-lesser`: added VUI-21JUL-01 (B.1.621)
+- New field: `who-label` with thanks to Theo Sanderson (WTSI)
 
 ## 0.4.1 - 2021-07-06
 ### Added
