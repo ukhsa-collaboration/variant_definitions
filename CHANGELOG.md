@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.1 - 2021-07-29
+
+### Changed
+- `empathy-serve`: removed 4 mutations for broader variant definition
+
 ## 0.5 - 2021-07-29
 
 ### Added
