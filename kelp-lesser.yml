@@ -1,0 +1,178 @@
+unique-id: kelp-lesser
+phe-label: VUI-21JUL-01
+who-label:
+alternate-names:
+- SIM_B1621
+belongs-to-lineage:
+- PANGO: B.1.621
+- nextstrain:
+description: Lineage predominantly in Colombia with several spike mutations
+information-sources:
+- https://cov-lineages.org/lineage.html?lineage=B.1.621
+- https://github.com/cov-lineages/pango-designation/issues/57
+variants:
+- gene: S
+  one-based-reference-position: 21990
+  protein: surface glycoprotein
+  reference-base: T
+  type: insertion
+  variant-base: TACT
+- amino-acid-change: T237A
+  codon-change: ACA-GCA
+  gene: ORF1ab
+  one-based-reference-position: 3428
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 237
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: T720I
+  codon-change: ACT-ATT
+  gene: ORF1ab
+  one-based-reference-position: 4878
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 720
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: AGC-AGT
+  gene: ORF1ab
+  one-based-reference-position: 6037
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 1106
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: Q160R
+  codon-change: CAA-CGA
+  gene: ORF1ab
+  one-based-reference-position: 11451
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 160
+  reference-base: A
+  type: SNP
+  variant-base: G
+- codon-change: TCA-TCT
+  gene: ORF1ab
+  one-based-reference-position: 13057
+  predicted-effect: synonymous
+  protein: nsp10
+  protein-codon-position: 11
+  reference-base: A
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- codon-change: TTC-TTT
+  gene: ORF1ab
+  one-based-reference-position: 20148
+  predicted-effect: synonymous
+  protein: nsp15
+  protein-codon-position: 176
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: T95I
+  codon-change: ACT-ATT
+  gene: S
+  one-based-reference-position: 21846
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 95
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: R346K
+  codon-change: AGA-AAA
+  gene: S
+  one-based-reference-position: 22599
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 346
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: E484K
+  codon-change: GAA-AAA
+  gene: S
+  one-based-reference-position: 23012
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: P681H
+  codon-change: CCT-CAT
+  gene: S
+  one-based-reference-position: 23604
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 681
+  reference-base: C
+  type: SNP
+  variant-base: A
+- gene: ORF3a
+  one-based-reference-position: 26157
+  protein: ORF3a protein
+  reference-base: TGTTA
+  type: deletion
+  variant-base: T
+- gene: .
+  one-based-reference-position: 26492
+  protein: .
+  reference-base: A
+  type: SNP
+  variant-base: T
+- amino-acid-change: T11K
+  codon-change: ACA-AAA
+  gene: ORF8
+  one-based-reference-position: 27925
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 11
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: P38S
+  codon-change: CCT-TCT
+  gene: ORF8
+  one-based-reference-position: 28005
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 38
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: T205I
+  codon-change: ACT-ATT
+  gene: N
+  one-based-reference-position: 28887
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 205
+  reference-base: C
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 14
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Aniruddha Pandit

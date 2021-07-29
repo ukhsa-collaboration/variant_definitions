@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5 - 2021-07-29
+
+### Added
+- `kelp-lesser`: added VUI-21JUL-01 (B.1.621)
+
 ## 0.4.1 - 2021-07-06
 ### Added
 - `perfume-sprint`: added VUI-21JUN-01 (lambda/C.37)
