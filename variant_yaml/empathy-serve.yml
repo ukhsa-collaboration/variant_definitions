@@ -21,16 +21,6 @@ variants:
   reference-base: C
   type: SNP
   variant-base: G
-- amino-acid-change: L452R
-  codon-change: CTG-CGG
-  gene: S
-  one-based-reference-position: 22917
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 452
-  reference-base: T
-  type: SNP
-  variant-base: G
 - amino-acid-change: T478K
   codon-change: ACA-AAA
   gene: S
@@ -51,16 +41,6 @@ variants:
   reference-base: C
   type: SNP
   variant-base: G
-- amino-acid-change: D950N
-  codon-change: GAT-AAT
-  gene: S
-  one-based-reference-position: 24410
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 950
-  reference-base: G
-  type: SNP
-  variant-base: A
 - amino-acid-change: S26L
   codon-change: TCA-TTA
   gene: ORF3a
@@ -77,16 +57,6 @@ variants:
   one-based-reference-position: 26767
   predicted-effect: non-synonymous
   protein: membrane glycoprotein
-  protein-codon-position: 82
-  reference-base: T
-  type: SNP
-  variant-base: C
-- amino-acid-change: V82A
-  codon-change: GTT-GCT
-  gene: ORF7a
-  one-based-reference-position: 27638
-  predicted-effect: non-synonymous
-  protein: ORF7a protein
   protein-codon-position: 82
   reference-base: T
   type: SNP
@@ -121,6 +91,37 @@ variants:
   reference-base: G
   type: SNP
   variant-base: T
+additional-mutations:
+- amino-acid-change: L452R
+  codon-change: CTG-CGG
+  gene: S
+  one-based-reference-position: 22917
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 452
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: D950N
+  codon-change: GAT-AAT
+  gene: S
+  one-based-reference-position: 24410
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 950
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: V82A
+  codon-change: GTT-GCT
+  gene: ORF7a
+  one-based-reference-position: 27638
+  predicted-effect: non-synonymous
+  protein: ORF7a protein
+  protein-codon-position: 82
+  reference-base: T
+  type: SNP
+  variant-base: C
 - amino-acid-change: D377Y
   codon-change: GAT-TAT
   gene: N
@@ -133,11 +134,11 @@ variants:
   variant-base: T
 calling-definition:
   confirmed:
-    mutations-required: 11
+    mutations-required: 8
     indels-required: 0
     allowed-wildtype: 0
   probable:
-    mutations-required: 5
+    mutations-required: 4
     indels-required: 0
     allowed-wildtype: 0
   low-qc:
