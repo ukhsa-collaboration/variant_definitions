@@ -1,0 +1,59 @@
+unique-id: curtain-oasis
+phe-label: VUI-21OCT-01
+who-label:
+alternate-names:
+- AY.4.2
+belongs-to-lineage:
+- PANGO: AY.4.2
+description: This variant is a sublineage of Delta with spike A222V and Y145H
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/223
+requires: empathy-serve
+variants:
+- amino-acid-change: A1711V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 7851
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1711
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A222V
+  codon-change: GCT-GTT
+  gene: S
+  one-based-reference-position: 22227
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 222
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: Y145H
+  codon-change: TAC-CAC
+  gene: S
+  one-based-reference-position: 21995
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 145
+  reference-base: T
+  type: SNP
+  variant-base: C
+calling-definition:
+  confirmed:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 2
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
+acknowledgements:
+curators:
+- Natalie Groves
+- Manon Ragonnet

@@ -27,6 +27,7 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/paragraph-footwork.yml">VUI-21MAY-02</a> | PANGO: C.36.3 | This variant has been observed in a growing number of imported cases in the UK |
 | <a href="variant_yaml/perfume-sprint.yml">VUI-21JUN-01</a> | PANGO: C.37 | This variant is a clade first associated with South America but now observed in USA and Europe |
 | <a href="variant_yaml/kelp-lesser.yml">VUI-21JUL-01</a> | PANGO: B.1.621 | This variant is a clade first associated with Colombia but now seen across the Americas and Europe |
+| <a href="variant_yaml/curtain-oasis.yml">VUI-21OCT-01</a> | PANGO: AY.4.2 | This variant is a sublineage of Delta with spike A222V and Y145H |
 
 ## File format definition
 
