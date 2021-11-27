@@ -1,0 +1,327 @@
+unique-id: pentagon-refining
+phe-label: VUI-21NOV-01
+who-label: Omicron
+alternate-names:
+- B.1.1.529
+belongs-to-lineage:
+- PANGO: B.1.1.529
+description: This variant is a lineage first identified in Southern Africa and has been exported to several other countries
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/343
+variants:
+- amino-acid-change: K38R
+  codon-change: AAG-AGG
+  gene: ORF1ab
+  one-based-reference-position: 2832
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 38
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: A1892T
+  codon-change: GCT-ACT
+  gene: ORF1ab
+  one-based-reference-position: 8393
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 1892
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: P132H
+  codon-change: CCC-CAC
+  gene: ORF1ab
+  one-based-reference-position: 10449
+  predicted-effect: non-synonymous
+  protein: nsp5
+  protein-codon-position: 132
+  reference-base: C
+  type: SNP
+  variant-base: A
+- codon-change: GTT-GTC
+  gene: ORF1ab
+  one-based-reference-position: 13195
+  predicted-effect: synonymous
+  protein: nsp10
+  protein-codon-position: 57
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: C
+- codon-change: AAC-AAT
+  gene: ORF1ab
+  one-based-reference-position: 15240
+  predicted-effect: synonymous
+  protein: nsp12
+  protein-codon-position: 600
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: I42V
+  codon-change: ATA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 18163
+  predicted-effect: non-synonymous
+  protein: nsp14
+  protein-codon-position: 42
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: G339D
+  codon-change: GGT-GAT
+  gene: S
+  one-based-reference-position: 22578
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 339
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: S371P
+  codon-change: TCC-CCC
+  gene: S
+  one-based-reference-position: 22673
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 371
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: S371F
+  codon-change: TCC-TTC
+  gene: S
+  one-based-reference-position: 22674
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 371
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: S373P
+  codon-change: TCA-CCA
+  gene: S
+  one-based-reference-position: 22679
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 373
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: K417N
+  codon-change: AAG-AAT
+  gene: S
+  one-based-reference-position: 22813
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 417
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: N440K
+  codon-change: AAT-AAG
+  gene: S
+  one-based-reference-position: 22882
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 440
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: G446S
+  codon-change: GGT-AGT
+  gene: S
+  one-based-reference-position: 22898
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 446
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: S477N
+  codon-change: AGC-AAC
+  gene: S
+  one-based-reference-position: 22992
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 477
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: E484A
+  codon-change: GAA-GCA
+  gene: S
+  one-based-reference-position: 23013
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 484
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: Q493R
+  codon-change: CAA-CGA
+  gene: S
+  one-based-reference-position: 23040
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 493
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: G496S
+  codon-change: GGT-AGT
+  gene: S
+  one-based-reference-position: 23048
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 496
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: Q498R
+  codon-change: CAA-CGA
+  gene: S
+  one-based-reference-position: 23055
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 498
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: T547K
+  codon-change: ACA-AAA
+  gene: S
+  one-based-reference-position: 23202
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 547
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: H655Y
+  codon-change: CAT-TAT
+  gene: S
+  one-based-reference-position: 23525
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 655
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: N679K
+  codon-change: AAT-AAG
+  gene: S
+  one-based-reference-position: 23599
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 679
+  reference-base: T
+  type: SNP
+  variant-base: G
+- codon-change: GAC-GAT
+  gene: S
+  one-based-reference-position: 25000
+  predicted-effect: synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 1146
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: D3G
+  codon-change: GAT-GGT
+  gene: M
+  one-based-reference-position: 26530
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 3
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: Q19E
+  codon-change: CAA-GAA
+  gene: M
+  one-based-reference-position: 26577
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 19
+  reference-base: C
+  type: SNP
+  variant-base: G
+- amino-acid-change: A63T
+  codon-change: GCT-ACT
+  gene: M
+  one-based-reference-position: 26709
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 63
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: AGG-CGG
+  gene: ORF6
+  one-based-reference-position: 27259
+  predicted-effect: synonymous
+  protein: ORF6 protein
+  protein-codon-position: 20
+  reference-base: A
+  snp-codon-position: 1
+  type: SNP
+  variant-base: C
+- codon-change: CTA-TTA
+  gene: ORF7b
+  one-based-reference-position: 27807
+  predicted-effect: synonymous
+  protein: ORF7b
+  protein-codon-position: 18
+  reference-base: C
+  snp-codon-position: 1
+  type: SNP
+  variant-base: T
+- gene: ORF1ab
+  one-based-reference-position: 6512
+  protein: nsp3
+  reference-base: AGTT
+  type: deletion
+  variant-base: A
+- gene: ORF1ab
+  one-based-reference-position: 11286
+  protein: nsp6
+  reference-base: TGTCTGGTTT
+  type: deletion
+  variant-base: T
+- gene: S
+  one-based-reference-position: 21764
+  protein: surface glycoprotein
+  reference-base: ATACATG
+  type: deletion
+  variant-base: A
+- gene: S
+  one-based-reference-position: 21968
+  protein: surface glycoprotein
+  reference-base: GGTGTTTATT
+  type: deletion
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 27
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 10
+    indels-required: 0
+    allowed-wildtype: 7
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 7
+acknowledgements:
+- Tulio de Oliveira and colleagues, CERI, Centre for Epidemic Response and Innovation, Stellenbosch University and KRISP, KZN Research Innovation and Sequencing Platform, UKZN, South Africa
+- National Institute for Communicable Diseases of the National Health Laboratory Service, South Africa
+- Sikhulile Moyo and colleagues, Botswana-Harvard AIDS Institute Partnership (BHP), Botswana
+- Alan Tsang and colleagues, Hong Kong Department of Health, Hong Kong
+- Thomas Peacock, Imperial College, UK
+curators:
+- Natalie Groves
+
