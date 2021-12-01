@@ -45,6 +45,7 @@ You can check that files are correct using the `yaml-validator.py` script.
 | belongs-to-lineage           | no       | list of dict | Lineage descriptions for commonly used lineage naming schemes e.g. PANGO and nextstrain |
 | description                  | yes      | text         | Description of the variant                                   |
 | information-sources          | no       | list of URLs | Useful references (not exhaustive) to official information sources about the discovery and monitoring of this reference |
+| requires                     | no       | text | Name of YAML definition required for variant definition (i.e. new variant must be Confirmed or Probable for existing variant) |
 | acknowledgements             | no       | list of text | Acknowledgements to people or institutions involved in creating this definition |
 | curators                     | no       | list of text | List of individuals responsible for maintaining this definition file |
 | **variants** block           | yes      | list of dict | List of mutations (SNPs, insertions and deletions) defining this variant |
