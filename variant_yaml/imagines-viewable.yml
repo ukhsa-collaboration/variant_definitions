@@ -1,0 +1,231 @@
+unique-id: imagines-viewable
+phe-label: VUI-22JAN-01
+who-label: Omicron
+alternate-names:
+- BA.2
+belongs-to-lineage:
+- PANGO: BA.2
+description: This variant is a sub-lineage of B.1.1.529
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/361
+- https://github.com/cov-lineages/pango-designation/issues/359
+variants:
+- amino-acid-change: S135R
+  codon-change: AGT-AGG
+  gene: ORF1ab
+  one-based-reference-position: 670
+  predicted-effect: non-synonymous
+  protein: nsp1
+  protein-codon-position: 135
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: T24I
+  codon-change: ACT-ATT
+  gene: ORF1ab
+  one-based-reference-position: 2790
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 24
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: G489S
+  codon-change: GGT-AGT
+  gene: ORF1ab
+  one-based-reference-position: 4184
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 489
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: GTA-GTG
+  gene: ORF1ab
+  one-based-reference-position: 9424
+  predicted-effect: synonymous
+  protein: nsp4
+  protein-codon-position: 290
+  reference-base: A
+  snp-codon-position: 3
+  type: SNP
+  variant-base: G
+- amino-acid-change: T327I
+  codon-change: ACT-ATT
+  gene: ORF1ab
+  one-based-reference-position: 9534
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 327
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: L438F
+  codon-change: CTT-TTT
+  gene: ORF1ab
+  one-based-reference-position: 9866
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 438
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: GAC-GAT
+  gene: ORF1ab
+  one-based-reference-position: 10198
+  predicted-effect: synonymous
+  protein: nsp5
+  protein-codon-position: 48
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- codon-change: AGG-AGA
+  gene: ORF1ab
+  one-based-reference-position: 10447
+  predicted-effect: synonymous
+  protein: nsp5
+  protein-codon-position: 131
+  reference-base: G
+  snp-codon-position: 3
+  type: SNP
+  variant-base: A
+- amino-acid-change: I42V
+  codon-change: ATA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 18163
+  predicted-effect: non-synonymous
+  protein: nsp14
+  protein-codon-position: 42
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: T19I
+  codon-change: ACA-ATA
+  gene: S
+  one-based-reference-position: 21618
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 19
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: V213G
+  codon-change: GTG-GGG
+  gene: S
+  one-based-reference-position: 22200
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 213
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: S373P
+  codon-change: TCA-CCA
+  gene: S
+  one-based-reference-position: 22679
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 373
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: T376A
+  codon-change: ACT-GCT
+  gene: S
+  one-based-reference-position: 22688
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 376
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: D405N
+  codon-change: GAT-AAT
+  gene: S
+  one-based-reference-position: 22775
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 405
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: R408S
+  codon-change: AGA-AGC
+  gene: S
+  one-based-reference-position: 22786
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 408
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: N679K
+  codon-change: AAT-AAG
+  gene: S
+  one-based-reference-position: 23599
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 679
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: N969K
+  codon-change: AAT-AAA
+  gene: S
+  one-based-reference-position: 24469
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 969
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: Q19E
+  codon-change: CAA-GAA
+  gene: M
+  one-based-reference-position: 26577
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 19
+  reference-base: C
+  type: SNP
+  variant-base: G
+- codon-change: AGG-CGG
+  gene: ORF6
+  one-based-reference-position: 27259
+  predicted-effect: synonymous
+  protein: ORF6 protein
+  protein-codon-position: 20
+  reference-base: A
+  snp-codon-position: 1
+  type: SNP
+  variant-base: C
+- amino-acid-change: S413R
+  codon-change: AGT-CGT
+  gene: N
+  one-based-reference-position: 29510
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 413
+  reference-base: A
+  type: SNP
+  variant-base: C
+calling-definition:
+  confirmed:
+    mutations-required: 20
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 10
+    indels-required: 0
+    allowed-wildtype: 3
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 3
+acknowledgements:
+- Tulio de Oliveira and colleagues, CERI, Centre for Epidemic Response and Innovation, Stellenbosch University and KRISP, KZN Research Innovation and Sequencing Platform, UKZN, South Africa
+- National Institute for Communicable Diseases of the National Health Laboratory Service, South Africa
+- Thomas Peacock, Imperial College, UK
+curators:
+- Natalie Groves

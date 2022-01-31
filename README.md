@@ -29,6 +29,7 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/kelp-lesser.yml">VUI-21JUL-01</a> | PANGO: B.1.621 | This variant is a clade first associated with Colombia but now seen across the Americas and Europe |
 | <a href="variant_yaml/curtain-oasis.yml">VUI-21OCT-01</a> | PANGO: AY.4.2 | This variant is a sublineage of Delta with spike A222V and Y145H |
 | <a href="variant_yaml/pentagon-refining.yml">VOC-21NOV-01</a> | WHO: Omicron PANGO: B.1.1.529 | This variant is a lineage first identified in Southern Africa and has been exported to several other countries |
+| <a href="variant_yaml/imagines-viewable.yml">VUI-22JAN-01</a> | PANGO: BA.2 | This variant is a sub-lineage of B.1.1.529 |
 
 ## File format definition
 
