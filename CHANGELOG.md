@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.6 - 2022-01-03
+## 0.6 - 2022-02-03
 
 ### Added
 - `imagines-viewable`:  Definition for VUI-22JAN-01 (BA.2)
