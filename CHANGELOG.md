@@ -1,12 +1,25 @@
 # Changelog
 
-## 0.6 - 2022-02-03
+## 0.7 - 2022-02-03
 
 ### Added
 - `imagines-viewable`:  Definition for VUI-22JAN-01 (BA.2)
 
 ### Changed
 - `pentagon-refining`: Reduced overlapping mutations to increase specificity vs VUI-22JAN-01 (BA.2)
+
+## 0.6.1 - 2021-12-01
+
+### Changed
+- Fixed numbering for deletion at 21986
+- Fixed nomenclature issue with MNP S371L
+- Updated PHE name to VOC
+
+## 0.6 - 2021-11-27
+
+### ADded
+- `pentagon-refining`: New definition for Omicron (B.1.1.529)
+- `curtain-oasis`: Definition for VUI-21OCT-01 (AY.4.2)
 
 ## 0.5.1 - 2021-07-29
 
