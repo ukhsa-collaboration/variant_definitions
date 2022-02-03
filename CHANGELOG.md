@@ -17,7 +17,7 @@
 
 ## 0.6 - 2021-11-27
 
-### ADded
+### Added
 - `pentagon-refining`: New definition for Omicron (B.1.1.529)
 - `curtain-oasis`: Definition for VUI-21OCT-01 (AY.4.2)
 
