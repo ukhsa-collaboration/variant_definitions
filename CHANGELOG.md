@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6 - 2022-01-03
+
+### Added
+- `imagines-viewable`:  Definition for VUI-22JAN-01 (BA.2)
+
+### Changed
+- `pentagon-refining`: Reduced overlapping mutations to increase specificity vs VUI-22JAN-01 (BA.2)
+
 ## 0.5.1 - 2021-07-29
 
 ### Changed

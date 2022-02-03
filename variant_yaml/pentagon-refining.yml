@@ -2,11 +2,10 @@ unique-id: pentagon-refining
 phe-label: VOC-21NOV-01
 who-label: Omicron
 alternate-names:
-- B.1.1.529
-- VUI-21NOV-01
+- BA.1
 belongs-to-lineage:
-- PANGO: B.1.1.529
-description: This variant is a lineage first identified in Southern Africa and has been exported to several other countries
+- PANGO: BA.1
+description: This variant is a lineage first identified in Southern Africa and has been exported to several other countries, it is a sub-lineage of B.1.1.529
 information-sources:
 - https://github.com/cov-lineages/pango-designation/issues/343
 variants:
@@ -20,6 +19,16 @@ variants:
   reference-base: A
   type: SNP
   variant-base: G
+- codon-change: GCT-GCG
+  gene: ORF1ab
+  one-based-reference-position: 5386
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 889
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: G
 - amino-acid-change: A1892T
   codon-change: GCT-ACT
   gene: ORF1ab
@@ -30,16 +39,16 @@ variants:
   reference-base: G
   type: SNP
   variant-base: A
-- amino-acid-change: P132H
-  codon-change: CCC-CAC
+- amino-acid-change: I189V
+  codon-change: ATT-GTT
   gene: ORF1ab
-  one-based-reference-position: 10449
+  one-based-reference-position: 11537
   predicted-effect: non-synonymous
-  protein: nsp5
-  protein-codon-position: 132
-  reference-base: C
+  protein: nsp6
+  protein-codon-position: 189
+  reference-base: A
   type: SNP
-  variant-base: A
+  variant-base: G
 - codon-change: GTT-GTC
   gene: ORF1ab
   one-based-reference-position: 13195
@@ -50,16 +59,6 @@ variants:
   snp-codon-position: 3
   type: SNP
   variant-base: C
-- codon-change: AAC-AAT
-  gene: ORF1ab
-  one-based-reference-position: 15240
-  predicted-effect: synonymous
-  protein: nsp12
-  protein-codon-position: 600
-  reference-base: C
-  snp-codon-position: 3
-  type: SNP
-  variant-base: T
 - amino-acid-change: I42V
   codon-change: ATA-GTA
   gene: ORF1ab
@@ -70,26 +69,6 @@ variants:
   reference-base: A
   type: SNP
   variant-base: G
-- amino-acid-change: G339D
-  codon-change: GGT-GAT
-  gene: S
-  one-based-reference-position: 22578
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 339
-  reference-base: G
-  type: SNP
-  variant-base: A
-- amino-acid-change: S371L
-  codon-change: TCC-CTC
-  gene: S
-  one-based-reference-position: 22673
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 371
-  reference-base: TCC
-  type: MNP
-  variant-base: CTC
 - amino-acid-change: S373P
   codon-change: TCA-CCA
   gene: S
@@ -100,26 +79,6 @@ variants:
   reference-base: T
   type: SNP
   variant-base: C
-- amino-acid-change: K417N
-  codon-change: AAG-AAT
-  gene: S
-  one-based-reference-position: 22813
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 417
-  reference-base: G
-  type: SNP
-  variant-base: T
-- amino-acid-change: N440K
-  codon-change: AAT-AAG
-  gene: S
-  one-based-reference-position: 22882
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 440
-  reference-base: T
-  type: SNP
-  variant-base: G
 - amino-acid-change: G446S
   codon-change: GGT-AGT
   gene: S
@@ -130,36 +89,6 @@ variants:
   reference-base: G
   type: SNP
   variant-base: A
-- amino-acid-change: S477N
-  codon-change: AGC-AAC
-  gene: S
-  one-based-reference-position: 22992
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 477
-  reference-base: G
-  type: SNP
-  variant-base: A
-- amino-acid-change: E484A
-  codon-change: GAA-GCA
-  gene: S
-  one-based-reference-position: 23013
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 484
-  reference-base: A
-  type: SNP
-  variant-base: C
-- amino-acid-change: Q493R
-  codon-change: CAA-CGA
-  gene: S
-  one-based-reference-position: 23040
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 493
-  reference-base: A
-  type: SNP
-  variant-base: G
 - amino-acid-change: G496S
   codon-change: GGT-AGT
   gene: S
@@ -170,16 +99,6 @@ variants:
   reference-base: G
   type: SNP
   variant-base: A
-- amino-acid-change: Q498R
-  codon-change: CAA-CGA
-  gene: S
-  one-based-reference-position: 23055
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 498
-  reference-base: A
-  type: SNP
-  variant-base: G
 - amino-acid-change: T547K
   codon-change: ACA-AAA
   gene: S
@@ -190,16 +109,6 @@ variants:
   reference-base: C
   type: SNP
   variant-base: A
-- amino-acid-change: H655Y
-  codon-change: CAT-TAT
-  gene: S
-  one-based-reference-position: 23525
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 655
-  reference-base: C
-  type: SNP
-  variant-base: T
 - amino-acid-change: N679K
   codon-change: AAT-AAG
   gene: S
@@ -210,14 +119,34 @@ variants:
   reference-base: T
   type: SNP
   variant-base: G
-- codon-change: GAC-GAT
+- amino-acid-change: N856K
+  codon-change: AAC-AAA
   gene: S
-  one-based-reference-position: 25000
-  predicted-effect: synonymous
+  one-based-reference-position: 24130
+  predicted-effect: non-synonymous
   protein: surface glycoprotein
-  protein-codon-position: 1146
+  protein-codon-position: 856
   reference-base: C
-  snp-codon-position: 3
+  type: SNP
+  variant-base: A
+- amino-acid-change: N969K
+  codon-change: AAT-AAA
+  gene: S
+  one-based-reference-position: 24469
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 969
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: L981F
+  codon-change: CTT-TTT
+  gene: S
+  one-based-reference-position: 24503
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 981
+  reference-base: C
   type: SNP
   variant-base: T
 - amino-acid-change: D3G
@@ -240,16 +169,6 @@ variants:
   reference-base: C
   type: SNP
   variant-base: G
-- amino-acid-change: A63T
-  codon-change: GCT-ACT
-  gene: M
-  one-based-reference-position: 26709
-  predicted-effect: non-synonymous
-  protein: membrane glycoprotein
-  protein-codon-position: 63
-  reference-base: G
-  type: SNP
-  variant-base: A
 - codon-change: AGG-CGG
   gene: ORF6
   one-based-reference-position: 27259
@@ -260,53 +179,19 @@ variants:
   snp-codon-position: 1
   type: SNP
   variant-base: C
-- codon-change: CTA-TTA
-  gene: ORF7b
-  one-based-reference-position: 27807
-  predicted-effect: synonymous
-  protein: ORF7b
-  protein-codon-position: 18
-  reference-base: C
-  snp-codon-position: 1
-  type: SNP
-  variant-base: T
-- gene: ORF1ab
-  one-based-reference-position: 6512
-  protein: nsp3
-  reference-base: AGTT
-  type: deletion
-  variant-base: A
-- gene: ORF1ab
-  one-based-reference-position: 11286
-  protein: nsp6
-  reference-base: TGTCTGGTTT
-  type: deletion
-  variant-base: T
-- gene: S
-  one-based-reference-position: 21764
-  protein: surface glycoprotein
-  reference-base: ATACATG
-  type: deletion
-  variant-base: A
-- gene: S
-  one-based-reference-position: 21986
-  protein: surface glycoprotein
-  reference-base: GGTGTTTATT
-  type: deletion
-  variant-base: G
 calling-definition:
   confirmed:
-    mutations-required: 27
+    mutations-required: 17
     indels-required: 0
     allowed-wildtype: 0
   probable:
     mutations-required: 10
     indels-required: 0
-    allowed-wildtype: 7
+    allowed-wildtype: 3
   low-qc:
     mutations-required: 0
     indels-required: 0
-    allowed-wildtype: 7
+    allowed-wildtype: 3
 acknowledgements:
 - Tulio de Oliveira and colleagues, CERI, Centre for Epidemic Response and Innovation, Stellenbosch University and KRISP, KZN Research Innovation and Sequencing Platform, UKZN, South Africa
 - National Institute for Communicable Diseases of the National Health Laboratory Service, South Africa
