@@ -1,7 +1,8 @@
 unique-id: habitable-pasty
-phe-label: VUI-21APR-01
+phe-label: V-21APR-01
 who-label: Kappa
 alternate-names:
+- VUI-21APR-01
 - India
 belongs-to-lineage:
 - PANGO: B.1.617.1

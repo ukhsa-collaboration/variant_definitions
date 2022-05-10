@@ -1,7 +1,7 @@
 unique-id: dandelion-marshy
-phe-label: VUI-21MAY-01
+phe-label: V-21MAY-01
 alternate-names:
--
+- VUI-21MAY-01
 belongs-to-lineage:
 - PANGO: AV.1
 description: This variant has been observed in a growing cluster in the UK

@@ -1,0 +1,65 @@
+unique-id: radiator-ditto
+phe-label: V-22APR-03
+who-label: Omicron
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: BA.4
+description: This variant is a sublineage of B.1.1.529
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/517
+requires: plausible-scanner
+variants:
+- codon-change: GAG-GAA
+  gene: ORF1ab
+  one-based-reference-position: 12160
+  predicted-effect: synonymous
+  protein: nsp8
+  protein-codon-position: 23
+  reference-base: G
+  snp-codon-position: 3
+  type: SNP
+  variant-base: A
+- amino-acid-change: F486V
+  codon-change: TTT-GTT
+  gene: S
+  one-based-reference-position: 23018
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 486
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: L11F
+  codon-change: TTG-TTT
+  gene: ORF7b
+  one-based-reference-position: 27788
+  predicted-effect: non-synonymous
+  protein: ORF7b
+  protein-codon-position: 11
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: P151S
+  codon-change: CCT-TCT
+  gene: N
+  one-based-reference-position: 28724
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 151
+  reference-base: C
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 4
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0

@@ -1,7 +1,7 @@
 
 # Standardised Variant Definitions
 
-This is a repository containing the up-to-date lineage definitions for variants of concern (VOC) and variants of interest (VUI) as curated by Public Health England. They are provided in order to facilitate standardised VOC and VUI calling across sequencing sites and bioinformatics pipelines and are the same definitions used internally at Public Health England. The mutations have been chosen to aid rapid and sensitive identification from sequence data: these are typically only a subset of the total set of mutations found in a variant. 
+This is a repository containing the up-to-date lineage definitions for variants of concern (VOC) and other variants (V) as curated by Public Health England. They are provided in order to facilitate standardised VOC and V calling across sequencing sites and bioinformatics pipelines and are the same definitions used internally at Public Health England. The mutations have been chosen to aid rapid and sensitive identification from sequence data: these are typically only a subset of the total set of mutations found in a variant. 
 
 Variant definitions are subject to change at any time. The latest release can be downloaded under the releases tab. A <a href="CHANGELOG.md">CHANGELOG</a> is available. For email notifications when this repository is updated, please use the GitHub "Watch" functionality at the top right of this page.
 
@@ -13,23 +13,28 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/carnival-shimmy.yml">VOC-20DEC-02</a> | PANGO: <a href="https://cov-lineages.org/global_report_B.1.351.html">B.1.351</a>, nextstrain: <a href="https://nextstrain.org/sars-cov-2/">N501Y.V2</a> | This variant became widespread in countries in Southern Africa at the end of 2020 and has now been exported to a number of other countries including the UK |
 | <a href="variant_yaml/unloved-crouton.yml">VOC-21FEB-02</a> | PANGO: <a href="https://cov-lineages.org/global_report_B.1.1.7.html">B.1.1.7</a> | This variant is a cluster of B.1.1.7 (VOC202012/01) that contains E484K and is associated with the Bristol area |
 | <a href="variant_yaml/slinky-antennae.yml">VOC-21JAN-02</a> | PANGO: <a href="https://cov-lineages.org/global_report_P.1.html">P.1</a> | This variant was first identified in Japan in travellers from Brazil and is associated with Manaus in the Amazonas region assoicated with a severe second wave of COVID-19 |
-| <a href="variant_yaml/cheesy-styling.yml">VUI-21FEB-01</a> | PANGO: <a href="https://cov-lineages.org/global_report_A.23.1.html">A.23.1</a> | This variant is a cluster within clade A.23.1 containing E484K observed in Liverpool |
-| <a href="variant_yaml/glorious-saucy.yml">VUI-21FEB-03</a> | PANGO: <a href="https://cov-lineages.org/global_report_B.1.525.html">B.1.525</a> | This variant is a cluster of E484K containing genomes |
-| <a href="variant_yaml/animating-thermos.yml">VUI-21FEB-04</a> | PANGO: B.1.1.318 | This variant is a cluster of E484K containing genomes |
-| <a href="variant_yaml/marbling-doodle.yml">VUI-21JAN-01</a> | PANGO: P.2 | This variant became widespread in Rio de Janeiro, Brazil and imported cases have been reported in a number of other countries including the UK |
-| <a href="variant_yaml/cornstalk-handprint.yml">VUI-21MAR-01</a> | PANGO: B.1.324.1 | First detected in the UK in a traveller from Antigua. |
-| <a href="variant_yaml/mushroom-android.yml">VUI-21MAR-02</a> | PANGO: P.3 | This variant appeared to be closely associated with the Phillipines and widely divergent from anything else upon discovery. |
-| <a href="variant_yaml/habitable-pasty.yml">VUI-21APR-01</a> | PANGO: B.1.617.1 | This variant is reported to be circulating in India and has been exported to other countries. |
+| <a href="variant_yaml/cheesy-styling.yml">V-21FEB-01</a> | PANGO: <a href="https://cov-lineages.org/global_report_A.23.1.html">A.23.1</a> | This variant is a cluster within clade A.23.1 containing E484K observed in Liverpool |
+| <a href="variant_yaml/glorious-saucy.yml">V-21FEB-03</a> | PANGO: <a href="https://cov-lineages.org/global_report_B.1.525.html">B.1.525</a> | This variant is a cluster of E484K containing genomes |
+| <a href="variant_yaml/animating-thermos.yml">V-21FEB-04</a> | PANGO: B.1.1.318 | This variant is a cluster of E484K containing genomes |
+| <a href="variant_yaml/marbling-doodle.yml">V-21JAN-01</a> | PANGO: P.2 | This variant became widespread in Rio de Janeiro, Brazil and imported cases have been reported in a number of other countries including the UK |
+| <a href="variant_yaml/cornstalk-handprint.yml">V-21MAR-01</a> | PANGO: B.1.324.1 | First detected in the UK in a traveller from Antigua. |
+| <a href="variant_yaml/mushroom-android.yml">V-21MAR-02</a> | PANGO: P.3 | This variant appeared to be closely associated with the Phillipines and widely divergent from anything else upon discovery. |
+| <a href="variant_yaml/habitable-pasty.yml">V-21APR-01</a> | PANGO: B.1.617.1 | This variant is reported to be circulating in India and has been exported to other countries. |
 | <a href="variant_yaml/empathy-serve.yml">VOC-21APR-02</a> | PANGO: B.1.617.2 | This variant is reported to be circulating in India and has been exported to other countries. |
-| <a href="variant_yaml/spherical-trial.yml">VUI-21APR-03</a> | PANGO: B.1.617.3 | This variant is reported to be circulating in India and has been exported to other countries. |
+| <a href="variant_yaml/spherical-trial.yml">V-21APR-03</a> | PANGO: B.1.617.3 | This variant is reported to be circulating in India and has been exported to other countries. |
 | <a href="variant_yaml/harbor-sprite.yml">E484K</a> | PANGO: Multiple | Catch-all definition to identify sequences with the E484K spike variant |
-| <a href="variant_yaml/dandelion-marshy.yml">VUI-21MAY-01</a> | PANGO: AV.1 | This variant has been observed in a growing cluster in the UK |
-| <a href="variant_yaml/paragraph-footwork.yml">VUI-21MAY-02</a> | PANGO: C.36.3 | This variant has been observed in a growing number of imported cases in the UK |
-| <a href="variant_yaml/perfume-sprint.yml">VUI-21JUN-01</a> | PANGO: C.37 | This variant is a clade first associated with South America but now observed in USA and Europe |
-| <a href="variant_yaml/kelp-lesser.yml">VUI-21JUL-01</a> | PANGO: B.1.621 | This variant is a clade first associated with Colombia but now seen across the Americas and Europe |
-| <a href="variant_yaml/curtain-oasis.yml">VUI-21OCT-01</a> | PANGO: AY.4.2 | This variant is a sublineage of Delta with spike A222V and Y145H |
+| <a href="variant_yaml/dandelion-marshy.yml">V-21MAY-01</a> | PANGO: AV.1 | This variant has been observed in a growing cluster in the UK |
+| <a href="variant_yaml/paragraph-footwork.yml">V-21MAY-02</a> | PANGO: C.36.3 | This variant has been observed in a growing number of imported cases in the UK |
+| <a href="variant_yaml/perfume-sprint.yml">V-21JUN-01</a> | PANGO: C.37 | This variant is a clade first associated with South America but now observed in USA and Europe |
+| <a href="variant_yaml/kelp-lesser.yml">V-21JUL-01</a> | PANGO: B.1.621 | This variant is a clade first associated with Colombia but now seen across the Americas and Europe |
+| <a href="variant_yaml/curtain-oasis.yml">V-21OCT-01</a> | PANGO: AY.4.2 | This variant is a sublineage of Delta with spike A222V and Y145H |
 | <a href="variant_yaml/pentagon-refining.yml">VOC-21NOV-01</a> | WHO: Omicron PANGO: B.1.1.529 | This variant is a lineage first identified in Southern Africa and has been exported to several other countries |
-| <a href="variant_yaml/imagines-viewable.yml">VUI-22JAN-01</a> | PANGO: BA.2 | This variant is a sub-lineage of B.1.1.529 |
+| <a href="variant_yaml/imagines-viewable.yml">VOC-22JAN-01</a> | PANGO: BA.2 | This variant is a sub-lineage of B.1.1.529 |
+| <a href="variant_yaml/umbrella-embark.yml">V-22APR-01</a> | PANGO: XD | This variant is a recombinant of Delta and BA.1 |
+| <a href="variant_yaml/outmost-resubmit.yml">V-22APR-02</a> | PANGO: XE | This variant is a recombinant of BA.1/BA.2 |
+| <a href="variant_yaml/radiator-ditto.yml">V-22APR-03</a> | PANGO: BA.4 | This variant is a sub-lineage of B.1.1.529 |
+| <a href="variant_yaml/dipped-bubbling.yml">V-22APR-04</a> | PANGO: BA.5 | This variant is a sub-lineage of B.1.1.529 |
+| <a href="variant_yaml/statistic-cadillac.yml">SIM-BA3</a> | PANGO: BA.3 | This variant is a sub-lineage of B.1.1.529 and has not been declared as a variant by UKHSA but is defined for monitoring purposes. |
 
 ## File format definition
 

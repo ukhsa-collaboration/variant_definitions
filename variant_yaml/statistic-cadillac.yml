@@ -1,0 +1,75 @@
+unique-id: statistic-cadillac
+phe-label: SIM-BA3
+who-label: Omicron
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: BA.3
+description: This variant is a sublineage of B.1.1.529
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/367
+requires: plausible-scanner
+variants:
+- codon-change: AAC-AAT
+  gene: ORF1ab
+  one-based-reference-position: 832
+  predicted-effect: synonymous
+  protein: nsp2
+  protein-codon-position: 9
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: A88V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 11235
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 88
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: A67V
+  codon-change: GCT-GTT
+  gene: S
+  one-based-reference-position: 21762
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 67
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: D405N
+  codon-change: GAT-AAT
+  gene: S
+  one-based-reference-position: 22775
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 405
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: TTC-TTT
+  gene: N
+  one-based-reference-position: 29311
+  predicted-effect: synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 346
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 4
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0

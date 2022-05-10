@@ -1,7 +1,8 @@
 unique-id: perfume-sprint
-phe-label: VUI-21JUN-01
+phe-label: V-21JUN-01
 who-label: Lambda
 alternate-names:
+- VUI-21JUN-01
 belongs-to-lineage:
 - PANGO: C.37
 - WHO: Lambda

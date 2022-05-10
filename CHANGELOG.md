@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.8 - 2022-05-10
+
+0.10 - 2022-05-09
+
+### Added
+- `umbrella-embark`: Added definition for V-22APR-01 (XD)
+- `outmost-resubmit`: Added definition for V-22APR-02 (XE)
+- `radiator-ditto`: Added definition for V-22APR-03 (BA.4)
+- `dipped-bubbling`: Added definition for V-22APR-03 (BA.5)
+
+### Changed
+- Updated definitions for pentagon-refining (VOC-21NOV-01) and imagines-viewable (VOC-22JAN-01)
+- Added definitions for generic Omicron call (`plausible-scanner`) now required for VOC-21NOV-01, VOC-22JAN-01, V-22APR-03 and V-22APR-04
+- `statistic-cadillac`: Added definition for BA.3 for monitoring purposes (not a declared variant)
+- Renamed variants to new nomenclature (V instead of VUI)
+
 ## 0.7 - 2022-02-03
 
 ### Added

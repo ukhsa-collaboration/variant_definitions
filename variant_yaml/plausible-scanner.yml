@@ -1,0 +1,176 @@
+unique-id: plausible-scanner
+phe-label: Omicron_Unassigned
+who-label: Omicron
+belongs-to-lineage:
+- PANGO: B.1.1.529
+description: This variant is a lineage that emerged in Southern Africa and has spread globally
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/343
+variants:
+- amino-acid-change: T492I
+  codon-change: ACC-ATC
+  gene: ORF1ab
+  one-based-reference-position: 10029
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 492
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: P132H
+  codon-change: CCC-CAC
+  gene: ORF1ab
+  one-based-reference-position: 10449
+  predicted-effect: non-synonymous
+  protein: nsp5
+  protein-codon-position: 132
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: I42V
+  codon-change: ATA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 18163
+  predicted-effect: non-synonymous
+  protein: nsp14
+  protein-codon-position: 42
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: G339D
+  codon-change: GGT-GAT
+  gene: S
+  one-based-reference-position: 22578
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 339
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: Y505H
+  codon-change: TAC-CAC
+  gene: S
+  one-based-reference-position: 23075
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 505
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: N679K
+  codon-change: AAT-AAG
+  gene: S
+  one-based-reference-position: 23599
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 679
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: Q954H
+  codon-change: CAA-CAT
+  gene: S
+  one-based-reference-position: 24424
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 954
+  reference-base: A
+  type: SNP
+  variant-base: T
+- amino-acid-change: N969K
+  codon-change: AAT-AAA
+  gene: S
+  one-based-reference-position: 24469
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 969
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: T9I
+  codon-change: ACA-ATA
+  gene: E
+  one-based-reference-position: 26270
+  predicted-effect: non-synonymous
+  protein: envelope protein
+  protein-codon-position: 9
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: Q19E
+  codon-change: CAA-GAA
+  gene: M
+  one-based-reference-position: 26577
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 19
+  reference-base: C
+  type: SNP
+  variant-base: G
+- amino-acid-change: A63T
+  codon-change: GCT-ACT
+  gene: M
+  one-based-reference-position: 26709
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 63
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: AGG-CGG
+  gene: ORF6
+  one-based-reference-position: 27259
+  predicted-effect: synonymous
+  protein: ORF6 protein
+  protein-codon-position: 20
+  reference-base: A
+  snp-codon-position: 1
+  type: SNP
+  variant-base: C
+- codon-change: CTA-TTA
+  gene: ORF7b
+  one-based-reference-position: 27807
+  predicted-effect: synonymous
+  protein: ORF7b
+  protein-codon-position: 18
+  reference-base: C
+  snp-codon-position: 1
+  type: SNP
+  variant-base: T
+- gene: .
+  one-based-reference-position: 28271
+  protein: .
+  reference-base: A
+  type: SNP
+  variant-base: T
+- amino-acid-change: P13L
+  codon-change: CCC-CTC
+  gene: N
+  one-based-reference-position: 28311
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 13
+  reference-base: C
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 12
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 7
+    indels-required: 0
+    allowed-wildtype: 3
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 3
+acknowledgements:
+- Tulio de Oliveira and colleagues, CERI, Centre for Epidemic Response and Innovation, Stellenbosch University and KRISP, KZN Research Innovation and Sequencing Platform, UKZN, South Africa
+- National Institute for Communicable Diseases of the National Health Laboratory Service, South Africa
+- Sikhulile Moyo and colleagues, Botswana-Harvard AIDS Institute Partnership (BHP), Botswana
+- Alan Tsang and colleagues, Hong Kong Department of Health, Hong Kong
+- Thomas Peacock, Imperial College, UK
+curators:
+- Natalie Groves

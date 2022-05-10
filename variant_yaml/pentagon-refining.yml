@@ -8,6 +8,7 @@ belongs-to-lineage:
 description: This variant is a lineage first identified in Southern Africa and has been exported to several other countries, it is a sub-lineage of B.1.1.529
 information-sources:
 - https://github.com/cov-lineages/pango-designation/issues/343
+requires: plausible-scanner
 variants:
 - amino-acid-change: K38R
   codon-change: AAG-AGG
@@ -17,16 +18,6 @@ variants:
   protein: nsp3
   protein-codon-position: 38
   reference-base: A
-  type: SNP
-  variant-base: G
-- codon-change: GCT-GCG
-  gene: ORF1ab
-  one-based-reference-position: 5386
-  predicted-effect: synonymous
-  protein: nsp3
-  protein-codon-position: 889
-  reference-base: T
-  snp-codon-position: 3
   type: SNP
   variant-base: G
 - amino-acid-change: A1892T
@@ -59,46 +50,16 @@ variants:
   snp-codon-position: 3
   type: SNP
   variant-base: C
-- amino-acid-change: I42V
-  codon-change: ATA-GTA
+- codon-change: AAC-AAT
   gene: ORF1ab
-  one-based-reference-position: 18163
-  predicted-effect: non-synonymous
-  protein: nsp14
-  protein-codon-position: 42
-  reference-base: A
+  one-based-reference-position: 15240
+  predicted-effect: synonymous
+  protein: nsp12
+  protein-codon-position: 600
+  reference-base: C
+  snp-codon-position: 3
   type: SNP
-  variant-base: G
-- amino-acid-change: S373P
-  codon-change: TCA-CCA
-  gene: S
-  one-based-reference-position: 22679
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 373
-  reference-base: T
-  type: SNP
-  variant-base: C
-- amino-acid-change: G446S
-  codon-change: GGT-AGT
-  gene: S
-  one-based-reference-position: 22898
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 446
-  reference-base: G
-  type: SNP
-  variant-base: A
-- amino-acid-change: G496S
-  codon-change: GGT-AGT
-  gene: S
-  one-based-reference-position: 23048
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 496
-  reference-base: G
-  type: SNP
-  variant-base: A
+  variant-base: T
 - amino-acid-change: T547K
   codon-change: ACA-AAA
   gene: S
@@ -109,16 +70,6 @@ variants:
   reference-base: C
   type: SNP
   variant-base: A
-- amino-acid-change: N679K
-  codon-change: AAT-AAG
-  gene: S
-  one-based-reference-position: 23599
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 679
-  reference-base: T
-  type: SNP
-  variant-base: G
 - amino-acid-change: N856K
   codon-change: AAC-AAA
   gene: S
@@ -127,16 +78,6 @@ variants:
   protein: surface glycoprotein
   protein-codon-position: 856
   reference-base: C
-  type: SNP
-  variant-base: A
-- amino-acid-change: N969K
-  codon-change: AAT-AAA
-  gene: S
-  one-based-reference-position: 24469
-  predicted-effect: non-synonymous
-  protein: surface glycoprotein
-  protein-codon-position: 969
-  reference-base: T
   type: SNP
   variant-base: A
 - amino-acid-change: L981F
@@ -159,39 +100,19 @@ variants:
   reference-base: A
   type: SNP
   variant-base: G
-- amino-acid-change: Q19E
-  codon-change: CAA-GAA
-  gene: M
-  one-based-reference-position: 26577
-  predicted-effect: non-synonymous
-  protein: membrane glycoprotein
-  protein-codon-position: 19
-  reference-base: C
-  type: SNP
-  variant-base: G
-- codon-change: AGG-CGG
-  gene: ORF6
-  one-based-reference-position: 27259
-  predicted-effect: synonymous
-  protein: ORF6 protein
-  protein-codon-position: 20
-  reference-base: A
-  snp-codon-position: 1
-  type: SNP
-  variant-base: C
 calling-definition:
   confirmed:
-    mutations-required: 17
+    mutations-required: 8
     indels-required: 0
     allowed-wildtype: 0
   probable:
-    mutations-required: 10
+    mutations-required: 6
     indels-required: 0
-    allowed-wildtype: 3
+    allowed-wildtype: 2
   low-qc:
     mutations-required: 0
     indels-required: 0
-    allowed-wildtype: 3
+    allowed-wildtype: 2
 acknowledgements:
 - Tulio de Oliveira and colleagues, CERI, Centre for Epidemic Response and Innovation, Stellenbosch University and KRISP, KZN Research Innovation and Sequencing Platform, UKZN, South Africa
 - National Institute for Communicable Diseases of the National Health Laboratory Service, South Africa

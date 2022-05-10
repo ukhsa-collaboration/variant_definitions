@@ -1,0 +1,71 @@
+unique-id: dipped-bubbling
+phe-label: V-22APR-04
+who-label: Omicron
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: BA.5
+description: This variant is a sublineage of B.1.1.529
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/517
+requires: plausible-scanner
+variants:
+- codon-change: GAG-GAA
+  gene: ORF1ab
+  one-based-reference-position: 12160
+  predicted-effect: synonymous
+  protein: nsp8
+  protein-codon-position: 23
+  reference-base: G
+  snp-codon-position: 3
+  type: SNP
+  variant-base: A
+- amino-acid-change: F486V
+  codon-change: TTT-GTT
+  gene: S
+  one-based-reference-position: 23018
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 486
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: D3N
+  codon-change: GAT-AAT
+  gene: M
+  one-based-reference-position: 26529
+  predicted-effect: non-synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 3
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: ACA-ACG
+  gene: M
+  one-based-reference-position: 27038
+  predicted-effect: synonymous
+  protein: membrane glycoprotein
+  protein-codon-position: 172
+  reference-base: A
+  snp-codon-position: 3
+  type: SNP
+  variant-base: G
+- gene: .
+  one-based-reference-position: 27889
+  protein: .
+  reference-base: C
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 4
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0

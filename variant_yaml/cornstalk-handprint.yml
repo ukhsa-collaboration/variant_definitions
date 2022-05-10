@@ -1,6 +1,7 @@
 unique-id: cornstalk-handprint
-phe-label: VUI-21MAR-01
+phe-label: V-21MAR-01
 alternate-names:
+- VUI-21MAR-01
 - VUI202103/01
 belongs-to-lineage:
 - PANGO: B.1.324.1
