@@ -1,0 +1,130 @@
+unique-id: umbrella-embark
+phe-label: V-22APR-01
+who-label:
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: XD
+description: This variant is a recombinant lineage. It comtains BA.2 spike within an AY.4 (Delta) backbone.
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/444
+variants:
+- amino-acid-change: E172D
+  codon-change: GAA-GAC
+  gene: ORF1ab
+  one-based-reference-position: 1321
+  predicted-effect: non-synonymous
+  protein: nsp2
+  protein-codon-position: 172
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: I57V
+  codon-change: ATA-GTA
+  gene: ORF1ab
+  one-based-reference-position: 8723
+  predicted-effect: non-synonymous
+  protein: nsp4
+  protein-codon-position: 57
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: P323F
+  codon-change: CCT-TTT
+  gene: ORF1ab
+  one-based-reference-position: 14407
+  predicted-effect: non-synonymous
+  protein: nsp12
+  protein-codon-position: 323
+  reference-base: CCT
+  type: MNP
+  variant-base: TTT
+- amino-acid-change: A27S
+  codon-change: GCA-TCA
+  gene: S
+  one-based-reference-position: 21641
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 27
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: G496S
+  codon-change: GGT-AGT
+  gene: S
+  one-based-reference-position: 23048
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 496
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: N764K
+  codon-change: AAC-AAA
+  gene: S
+  one-based-reference-position: 23854
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 764
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: L981F
+  codon-change: CTT-TTT
+  gene: S
+  one-based-reference-position: 24503
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 981
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: S92L
+  codon-change: TCA-TTA
+  gene: ORF3a
+  one-based-reference-position: 25667
+  predicted-effect: non-synonymous
+  protein: ORF3a protein
+  protein-codon-position: 92
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: D155Y
+  codon-change: GAC-TAC
+  gene: ORF3a
+  one-based-reference-position: 25855
+  predicted-effect: non-synonymous
+  protein: ORF3a protein
+  protein-codon-position: 155
+  reference-base: G
+  type: SNP
+  variant-base: T
+- gene: .
+  one-based-reference-position: 29540
+  protein: .
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: V30L
+  codon-change: GTA-TTA
+  gene: ORF10
+  one-based-reference-position: 29645
+  predicted-effect: non-synonymous
+  protein: ORF10 protein
+  protein-codon-position: 30
+  reference-base: G
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 9
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 6
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
