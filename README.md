@@ -34,6 +34,7 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/outmost-resubmit.yml">V-22APR-02</a> | PANGO: XE | This variant is a recombinant of BA.1/BA.2 |
 | <a href="variant_yaml/radiator-ditto.yml">V-22APR-03</a> | PANGO: BA.4 | This variant is a sub-lineage of B.1.1.529 |
 | <a href="variant_yaml/dipped-bubbling.yml">V-22APR-04</a> | PANGO: BA.5 | This variant is a sub-lineage of B.1.1.529 |
+| <a href="variant_yaml/pampered-imagining.yml">V-22JUL-01</a> | PANGO: BA.2.75 | This variant is a sub-lineage of B.1.1.529.2 (BA.2) |
 | <a href="variant_yaml/statistic-cadillac.yml">SIM-BA3</a> | PANGO: BA.3 | This variant is a sub-lineage of B.1.1.529 and has not been declared as a variant by UKHSA but is defined for monitoring purposes. |
 
 ## File format definition

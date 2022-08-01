@@ -1,0 +1,131 @@
+unique-id: pampered-imagining
+phe-label: V-22JUL-01
+who-label: Omicron
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: BA.2.75
+description: This variant is a sublineage of B.1.1.529.2 (BA.2)
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/773
+requires: plausible-scanner
+variants:
+- codon-change: GTC-GTT
+  gene: ORF1ab
+  one-based-reference-position: 3796
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 359
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: S403L
+  codon-change: TCA-TTA
+  gene: ORF1ab
+  one-based-reference-position: 3927
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 403
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: CTA-TTA
+  gene: ORF1ab
+  one-based-reference-position: 4586
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 623
+  reference-base: C
+  snp-codon-position: 1
+  type: SNP
+  variant-base: T
+- amino-acid-change: P822S
+  codon-change: CCT-TCT
+  gene: ORF1ab
+  one-based-reference-position: 5183
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 822
+  reference-base: C
+  type: SNP
+  variant-base: T
+- amino-acid-change: N118S
+  codon-change: AAC-AGC
+  gene: ORF1ab
+  one-based-reference-position: 12444
+  predicted-effect: non-synonymous
+  protein: nsp8
+  protein-codon-position: 118
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: I210V
+  codon-change: ATT-GTT
+  gene: S
+  one-based-reference-position: 22190
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 210
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: G257S
+  codon-change: GGT-AGT
+  gene: S
+  one-based-reference-position: 22331
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 257
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: G339H
+  codon-change: GGT-CAT
+  gene: S
+  one-based-reference-position: 22577
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 339
+  reference-base: GGT
+  type: MNP
+  variant-base: CAT
+- amino-acid-change: N460K
+  codon-change: AAT-AAG
+  gene: S
+  one-based-reference-position: 22942
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 460
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: T11A
+  codon-change: ACG-GCG
+  gene: E
+  one-based-reference-position: 26275
+  predicted-effect: non-synonymous
+  protein: envelope protein
+  protein-codon-position: 11
+  reference-base: A
+  type: SNP
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 7
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 4
+    indels-required: 0
+    allowed-wildtype: 2
+  low-qc:
+    mutations-required: 1
+    indels-required: 0
+    allowed-wildtype: 2
+acknowledgements:
+- Thomas Peacock, Imperial College, UK
+curators:
+- Natalie Groves
+- Ashley Shalloe
+- Mark Stewart

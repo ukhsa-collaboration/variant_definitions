@@ -1,8 +1,14 @@
 # Changelog
 
-## 0.8 - 2022-05-10
+## 0.11 - 2022-08-01
 
-0.10 - 2022-05-09
+### Added
+- `pampered-imagining`: Added definition for V-22JUL-01 (BA.2.75)
+
+### Changed
+- Skipped two minor versions for internal consistency to 0.11
+
+## 0.8 - 2022-05-10
 
 ### Added
 - `umbrella-embark`: Added definition for V-22APR-01 (XD)
