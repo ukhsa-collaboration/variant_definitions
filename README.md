@@ -1,7 +1,7 @@
 
 # Standardised Variant Definitions
 
-This is a repository containing the up-to-date lineage definitions for variants of concern (VOC) and other variants (V) as curated by Public Health England. They are provided in order to facilitate standardised VOC and V calling across sequencing sites and bioinformatics pipelines and are the same definitions used internally at Public Health England. The mutations have been chosen to aid rapid and sensitive identification from sequence data: these are typically only a subset of the total set of mutations found in a variant. 
+This is a repository containing the up-to-date lineage definitions for variants of concern (VOC) and other variants (V) as curated by UK Health Security Agency. They are provided in order to facilitate standardised VOC and V calling across sequencing sites and bioinformatics pipelines and are the same definitions used internally at Public Health England. The mutations have been chosen to aid rapid and sensitive identification from sequence data: these are typically only a subset of the total set of mutations found in a variant. 
 
 Variant definitions are subject to change at any time. The latest release can be downloaded under the releases tab. A <a href="CHANGELOG.md">CHANGELOG</a> is available. For email notifications when this repository is updated, please use the GitHub "Watch" functionality at the top right of this page.
 
@@ -35,6 +35,11 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/radiator-ditto.yml">V-22APR-03</a> | PANGO: BA.4 | This variant is a sub-lineage of B.1.1.529 |
 | <a href="variant_yaml/dipped-bubbling.yml">V-22APR-04</a> | PANGO: BA.5 | This variant is a sub-lineage of B.1.1.529 |
 | <a href="variant_yaml/pampered-imagining.yml">V-22JUL-01</a> | PANGO: BA.2.75 | This variant is a sub-lineage of B.1.1.529.2 (BA.2) |
+| <a href="variant_yaml/legroom-finished.yml">V-22SEP-01</a> | PANGO: BA.4.6 | This variant is a sub-lineage of B.1.1.529.4 (BA.4) |
+| <a href="variant_yaml/monologue-underling.yml">V-22OCT-01</a> | PANGO: BQ.1 | This variant is a sub-lineage of B.1.1.529.5 (BA.5) |
+| <a href="variant_yaml/edge-talon.yml">V-22OCT-02</a> | PANGO: XBB | This variant is a recombinant lineage of BJ.1 and BM.1.1.1 |
+| <a href="variant_yaml/gaming-talon.yml">V-22DEC-01</a> | PANGO: CH.1.1 | This variant is a sub-lineage of BA.2.75 |
+| <a href="variant_yaml/vertical-sworn.yml">V-23JAN-01</a> | PANGO: XBB.1.5 | This variant is a sub-lineage of XBB |
 | <a href="variant_yaml/statistic-cadillac.yml">SIM-BA3</a> | PANGO: BA.3 | This variant is a sub-lineage of B.1.1.529 and has not been declared as a variant by UKHSA but is defined for monitoring purposes. |
 
 ## File format definition
@@ -65,7 +70,7 @@ You can check that files are correct using the `yaml-validator.py` script.
 | predicted-effect             | no       | text         | synonymous, non-synonymous, no-effect (e.g. upstream stop) |
 | protein                      | no       | text         | the mature protein product (used for amino-acid-change, codon-change and protein-codon-position) |
 | type                         | yes      | text         | SNP, MNP, insertion, deletion |
-| variant-base                 | yes      | text         | The mutated base or bases (for insertions) in the variant at one-based-reference-genome, encoded as per VCF |
+| variant-base                 | yes      | text         | The mutated base or bases (for insertions) in the variant at one-based-reference-genome, encoded as per VCF. `N` bases in MNP notation to be ignored. |
 | **calling-definition** block | no       | dict         | A set of dictionary labels defining 1 or more calling definitions |
 | mutations-required           | yes      | integer      | number of mutations (SNPs or MNPs) required to call the mutation |
 | indels-required              | yes      | integer      | number of insertions or deletions from the variant definition required |
@@ -74,19 +79,19 @@ You can check that files are correct using the `yaml-validator.py` script.
 
 ## Contact
 
-For further information, help or assistance contact PHE Genomics Cell at <covid19genomics@phe.gov.uk>
+For further information, help or assistance contact UKHSA Genomics Public Health Analysis at <genomicspublichealthanalysis@ukhsa.gov.uk>
 
 ## Contributors
 
  - Matt Bull (PHW)
- - Meera Chand (PHE)
+ - Meera Chand (UKHSA)
  - Tom Connor (PHW)
- - Nick Ellaby (PHE)
- - Natalie Groves (PHE)
- - Katri Jalava (PHE)
- - Nick Loman (University of Birmingham/PHE)
- - Richard Myers (PHE)
- - Sam Nicholls (University of Birmingham/PHE)
- - Ulf Schaefer (PHE)
+ - Nick Ellaby (UKHSA)
+ - Natalie Groves (UKHSA)
+ - Katri Jalava (UKHSA)
+ - Nick Loman (University of Birmingham/UKHSA)
+ - Richard Myers (UKHSA)
+ - Sam Nicholls (University of Birmingham/UKHSA)
+ - Ulf Schaefer (UKHSA)
 
 

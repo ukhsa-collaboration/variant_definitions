@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.0 - 2023-01-26
+
+### Added
+- `legroom-finished`: Added definition for V-22SEP-01 (BA.4.6)
+- `monologue-underling`: Added definition for V-22OCT-01 (BQ.1)
+- `edge-talon`: Added definition for V-22OCT-02 (XBB)
+- `gaming-talon`: Added definition for V-22DEC-01 (CH.1.1)
+- `vertical-sworn`: Added definition for V-23JAN-01 (XBB.1.5)
+
+### Changed
+- Updated MNP notation in yaml files. The full codon will now be included in `reference-base` and `variant-base` for 
+any MNPs in the `variants` section of the yaml. Unchanged nucleotides will be written as `N` in the `variant-base` 
+field to indicate that a wildtype call is not required to assign the mutation as present.
+- `animating-thermos.yml`: removed T21I from mutations required
+- `carnival-shimmy.yml`: removed N501Y from mutations required and alternate probable mutations
+- `habitable-pasty.yml`: mutations required for probable call increased from 5 to 6
+- This repository will now be maintained for all signals currently monitored by UKHSA.
+
 ## 0.11 - 2022-08-01
 
 ### Added
