@@ -1,0 +1,73 @@
+unique-id: gaming-talon
+phe-label: V-22DEC-01
+who-label: Omicron
+belongs-to-lineage:
+- PANGO: CH.1.1
+description: This variant is a sub-lineage of BA.2.75 (Omicron)
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/1113
+requires: pampered-imagining
+variants:
+- amino-acid-change: Q380K
+  codon-change: CAA-AAA
+  gene: ORF1ab
+  one-based-reference-position: 3857
+  predicted-effect: non-synonymous
+  protein: nsp3
+  protein-codon-position: 380
+  reference-base: C
+  type: SNP
+  variant-base: A
+- amino-acid-change: V182I
+  codon-change: GTA-ATA
+  gene: ORF1ab
+  one-based-reference-position: 18583
+  predicted-effect: non-synonymous
+  protein: nsp14
+  protein-codon-position: 182
+  reference-base: G
+  type: SNP
+  variant-base: A
+- amino-acid-change: Q28R
+  codon-change: CAA-CGA
+  gene: ORF1ab
+  one-based-reference-position: 20741
+  predicted-effect: non-synonymous
+  protein: nsp16
+  protein-codon-position: 28
+  reference-base: A
+  type: SNP
+  variant-base: G
+- amino-acid-change: K444T
+  codon-change: AAG-ACG
+  gene: S
+  one-based-reference-position: 22893
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 444
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: L452R
+  codon-change: CTG-CGG
+  gene: S
+  one-based-reference-position: 22917
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 452
+  reference-base: T
+  type: SNP
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 4
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 1

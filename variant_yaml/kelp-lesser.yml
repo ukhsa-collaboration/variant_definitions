@@ -2,12 +2,11 @@ unique-id: kelp-lesser
 phe-label: V-21JUL-01
 who-label:
 alternate-names:
-- VUI-21JUL-01
 - SIM_B1621
 belongs-to-lineage:
 - PANGO: B.1.621
 - nextstrain:
-description: Lineage predominantly in Colombia with several spike mutations
+description: Lineage predominantly in Colombia with several spike mutations,
 information-sources:
 - https://cov-lineages.org/lineage.html?lineage=B.1.621
 - https://github.com/cov-lineages/pango-designation/issues/57

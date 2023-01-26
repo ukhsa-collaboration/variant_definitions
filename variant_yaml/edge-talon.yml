@@ -1,0 +1,115 @@
+unique-id: edge-talon
+phe-label: V-22OCT-02
+who-label: Omicron
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: XBB
+description: This variant is a recombinant Omicron lineage BJ.1/BM.1.1.1
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/1058
+requires: imagines-viewable
+variants:
+- amino-acid-change: K47R
+  codon-change: AAA-AGA
+  gene: ORF1ab
+  one-based-reference-position: 405
+  predicted-effect: non-synonymous
+  protein: nsp1
+  protein-codon-position: 47
+  reference-base: A
+  type: SNP
+  variant-base: G
+- codon-change: TAT-TAC
+  gene: ORF1ab
+  one-based-reference-position: 17859
+  predicted-effect: synonymous
+  protein: nsp13
+  protein-codon-position: 541
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: C
+- codon-change: CCA-CCG
+  gene: ORF1ab
+  one-based-reference-position: 19326
+  predicted-effect: synonymous
+  protein: nsp14
+  protein-codon-position: 429
+  reference-base: A
+  snp-codon-position: 3
+  type: SNP
+  variant-base: G
+- amino-acid-change: V83A
+  codon-change: GTC-GCC
+  gene: S
+  one-based-reference-position: 21810
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 83
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: V213E
+  codon-change: GTG-GAG
+  gene: S
+  one-based-reference-position: 22200
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 213
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: N460K
+  codon-change: AAT-AAG
+  gene: S
+  one-based-reference-position: 22942
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 460
+  reference-base: T
+  type: SNP
+  variant-base: G
+- amino-acid-change: F486S
+  codon-change: TTT-TCT
+  gene: S
+  one-based-reference-position: 23019
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 486
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: F490S
+  codon-change: TTT-TCT
+  gene: S
+  one-based-reference-position: 23031
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 490
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: T11A
+  codon-change: ACG-GCG
+  gene: E
+  one-based-reference-position: 26275
+  predicted-effect: non-synonymous
+  protein: envelope protein
+  protein-codon-position: 11
+  reference-base: A
+  type: SNP
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 7
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 5
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 1

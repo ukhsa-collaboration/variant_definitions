@@ -1,7 +1,6 @@
 unique-id: animating-thermos
 phe-label: V-21FEB-04
 alternate-names:
-- VUI-21FEB-04
 - VUI202102/04
 - Debbie
 belongs-to-lineage:
@@ -46,16 +45,6 @@ variants:
   predicted-effect: non-synonymous
   protein: nsp4
   protein-codon-position: 446
-  reference-base: C
-  type: SNP
-  variant-base: T
-- amino-acid-change: T21I
-  codon-change: ACT-ATT
-  gene: ORF1ab
-  one-based-reference-position: 10116
-  predicted-effect: non-synonymous
-  protein: nsp5
-  protein-codon-position: 21
   reference-base: C
   type: SNP
   variant-base: T
@@ -180,7 +169,7 @@ variants:
   variant-base: G
 calling-definition:
   confirmed:
-    mutations-required: 15
+    mutations-required: 14
     indels-required: 0
     allowed-wildtype: 0
   probable:

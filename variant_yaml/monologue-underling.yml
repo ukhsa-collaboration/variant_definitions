@@ -1,0 +1,67 @@
+unique-id: monologue-underling
+phe-label: V-22OCT-01
+who-label: Omicron
+belongs-to-lineage:
+- PANGO: BQ.1
+description: This variant is a sub-lineage of BA.5 (Omicron)
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/993
+requires: dipped-bubbling
+variants:
+- amino-acid-change: Y273H
+  codon-change: TAT-CAT
+  gene: ORF1ab
+  one-based-reference-position: 14257
+  predicted-effect: non-synonymous
+  protein: nsp12
+  protein-codon-position: 273
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: K444T
+  codon-change: AAG-ACG
+  gene: S
+  one-based-reference-position: 22893
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 444
+  reference-base: A
+  type: SNP
+  variant-base: C
+- amino-acid-change: N460K
+  codon-change: AAT-AAA
+  gene: S
+  one-based-reference-position: 22942
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 460
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: P13L
+  codon-change: CCC-CTT
+  gene: N
+  one-based-reference-position: 28310
+  predicted-effect: non-synonymous
+  protein: nucleocapsid phosphoprotein
+  protein-codon-position: 13
+  reference-base: CCC
+  type: MNP
+  variant-base: NTT
+calling-definition:
+  confirmed:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 2
+    indels-required: 0
+    allowed-wildtype: 0
+  alt-probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 1

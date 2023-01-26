@@ -1,5 +1,5 @@
 unique-id: carnival-shimmy
-phe-label: VOC-20DEC-02
+phe-label: V-20DEC-02
 who-label: Beta
 alternate-names:
 - VOC202012/02
@@ -208,16 +208,6 @@ calling-definition:
         reference-base: G
         type: SNP
         variant-base: A
-      - amino-acid-change: N501Y
-        codon-change: AAT-TAT
-        gene: S
-        one-based-reference-position: 23063
-        predicted-effect: non-synonymous
-        protein: surface glycoprotein
-        protein-codon-position: 501
-        reference-base: A
-        type: SNP
-        variant-base: T
       - amino-acid-change: A701V
         codon-change: GCA-GTA
         gene: S
@@ -307,16 +297,6 @@ calling-definition:
         reference-base: G
         type: SNP
         variant-base: A
-      - amino-acid-change: N501Y
-        codon-change: AAT-TAT
-        gene: S
-        one-based-reference-position: 23063
-        predicted-effect: non-synonymous
-        protein: surface glycoprotein
-        protein-codon-position: 501
-        reference-base: A
-        type: SNP
-        variant-base: T
       - amino-acid-change: A701V
         codon-change: GCA-GTA
         gene: S

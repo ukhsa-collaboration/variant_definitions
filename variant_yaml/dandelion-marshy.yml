@@ -1,7 +1,7 @@
 unique-id: dandelion-marshy
 phe-label: V-21MAY-01
 alternate-names:
-- VUI-21MAY-01
+-
 belongs-to-lineage:
 - PANGO: AV.1
 description: This variant has been observed in a growing cluster in the UK
@@ -251,7 +251,7 @@ variants:
   protein-codon-position: 157
   reference-base: ATC
   type: MNP
-  variant-base: GTT
+  variant-base: GNT
 calling-definition:
   confirmed:
     mutations-required: 22

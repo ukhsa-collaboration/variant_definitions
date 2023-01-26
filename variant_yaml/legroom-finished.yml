@@ -1,0 +1,65 @@
+unique-id: legroom-finished
+phe-label: V-22SEP-01
+who-label: Omicron
+alternate-names:
+-
+belongs-to-lineage:
+- PANGO: BA.4.6
+description: This variant is a sublineage of BA.4 (VOC-22APR-03)
+information-sources:
+-
+requires: radiator-ditto
+variants:
+- codon-change: TCC-TCT
+  gene: ORF1ab
+  one-based-reference-position: 8140
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 1807
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: R346T
+  codon-change: AGA-ACA
+  gene: S
+  one-based-reference-position: 22599
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 346
+  reference-base: G
+  type: SNP
+  variant-base: C
+- codon-change: CTA-TTA
+  gene: ORF1ab
+  one-based-reference-position: 14599
+  predicted-effect: synonymous
+  protein: nsp12
+  protein-codon-position: 387
+  reference-base: C
+  snp-codon-position: 1
+  type: SNP
+  variant-base: T
+- amino-acid-change: N658S
+  codon-change: AAC-AGC
+  gene: S
+  one-based-reference-position: 23535
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 658
+  reference-base: A
+  type: SNP
+  variant-base: G
+calling-definition:
+  confirmed:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 2
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0

@@ -2,7 +2,6 @@ unique-id: glorious-saucy
 phe-label: V-21FEB-03
 who-label: Eta
 alternate-names:
-- VUI-21FEB-03
 - VUI202102/03
 - UK1188
 belongs-to-lineage:
@@ -54,9 +53,9 @@ variants:
   predicted-effect: non-synonymous
   protein: nsp12
   protein-codon-position: 323
-  reference-base: CC
+  reference-base: CCT
   type: MNP
-  variant-base: TT
+  variant-base: TTN
 - codon-change: GGC-GGT
   gene: ORF1ab
   one-based-reference-position: 18171

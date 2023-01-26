@@ -1,13 +1,14 @@
 unique-id: cornstalk-handprint
 phe-label: V-21MAR-01
 alternate-names:
-- VUI-21MAR-01
 - VUI202103/01
+- B.1.324.1
 belongs-to-lineage:
-- PANGO: B.1.324.1
+- PANGO: B.1.623
 description: First detected in the UK in a traveller from Antigua.
 information-sources:
 - https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/968581/Variants_of_Concern_VOC_Technical_Briefing_7_England.pdf
+- https://github.com/cov-lineages/pango-designation/issues/25
 variants:
 - amino-acid-change: G76S
   codon-change: GGC-AGC

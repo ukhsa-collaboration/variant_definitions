@@ -1,0 +1,53 @@
+unique-id: vertical-sworn
+phe-label: V-23JAN-01
+who-label: Omicron
+belongs-to-lineage:
+- PANGO: XBB.1.5
+description: This variant is a sub-lineage of BA.2.75 (Omicron)
+information-sources:
+- https://github.com/cov-lineages/pango-designation/issues/1459
+requires: edge-talon
+variants:
+- codon-change: GCT-GCC
+  gene: ORF1ab
+  one-based-reference-position: 17124
+  predicted-effect: synonymous
+  protein: nsp13
+  protein-codon-position: 296
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: C
+- amino-acid-change: F486P
+  codon-change: TTT-CCT
+  gene: S
+  one-based-reference-position: 23018
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 486
+  reference-base: TTT
+  type: MNP
+  variant-base: CCN
+- amino-acid-change: G8*
+  codon-change: GGA-TGA
+  gene: ORF8
+  one-based-reference-position: 27915
+  predicted-effect: non-synonymous
+  protein: ORF8 protein
+  protein-codon-position: 8
+  reference-base: G
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 2
+    indels-required: 0
+    allowed-wildtype: 0
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 0
