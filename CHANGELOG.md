@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1 - 2023-05-19
+
+### Added
+- `handler-hypnosis`: Added definition for V-23APR-01 (XBB.1.16)
+
+### Changed
+- Corrected description in `vertical-sworn`  
+
 ## 1.0 - 2023-01-26
 
 ### Added

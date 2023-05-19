@@ -3,7 +3,7 @@ phe-label: V-23JAN-01
 who-label: Omicron
 belongs-to-lineage:
 - PANGO: XBB.1.5
-description: This variant is a sub-lineage of BA.2.75 (Omicron)
+description: This variant is a sub-lineage of the recombinant Omicron lineage XBB
 information-sources:
 - https://github.com/cov-lineages/pango-designation/issues/1459
 requires: edge-talon
