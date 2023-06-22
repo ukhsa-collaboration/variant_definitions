@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1 - 2022-06-22
+### Changed
+- `imagines-viewable`: Increased `wildtype-allowed` for `low-qc` definition from 0 to 1 in line with probable definition
+- `handler-hypnosis`: Increased `wildtype-allowed` for `low-qc` definition from 0 to 1 in line with probable definition
+
 ## 1.1 - 2023-05-19
 
 ### Added

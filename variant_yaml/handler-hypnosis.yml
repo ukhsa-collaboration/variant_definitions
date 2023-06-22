@@ -90,4 +90,4 @@ calling-definition:
   low-qc:
     mutations-required: 0
     indels-required: 0
-    allowed-wildtype: 0
+    allowed-wildtype: 1
