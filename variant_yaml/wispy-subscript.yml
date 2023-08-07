@@ -1,0 +1,73 @@
+unique-id: wispy-subscript
+phe-label: V-23JUL-01
+who-label: Omicron
+belongs-to-lineage:
+- PANGO: EG.5.1
+description: This variant is a sub-lineage of the recombinant Omicron lineage XBB (alias of XBB.1.9.2.5.1)
+information-sources:
+-
+requires: edge-talon
+variants:
+- amino-acid-change: A510V
+  codon-change: GCT-GTT
+  gene: ORF1ab
+  one-based-reference-position: 2334
+  predicted-effect: non-synonymous
+  protein: nsp2
+  protein-codon-position: 510
+  reference-base: C
+  type: SNP
+  variant-base: T
+- codon-change: CCA-CCG
+  gene: ORF1ab
+  one-based-reference-position: 18492
+  predicted-effect: synonymous
+  protein: nsp14
+  protein-codon-position: 151
+  reference-base: A
+  snp-codon-position: 3
+  type: SNP
+  variant-base: G
+- amino-acid-change: Q52H
+  codon-change: CAG-CAT
+  gene: S
+  one-based-reference-position: 21718
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 52
+  reference-base: G
+  type: SNP
+  variant-base: T
+- amino-acid-change: F456L
+  codon-change: TTT-TTA
+  gene: S
+  one-based-reference-position: 22930
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 456
+  reference-base: T
+  type: SNP
+  variant-base: A
+- amino-acid-change: S23F
+  codon-change: TCT-TTT
+  gene: ORF10
+  one-based-reference-position: 29625
+  predicted-effect: non-synonymous
+  protein: ORF10 protein
+  protein-codon-position: 23
+  reference-base: C
+  type: SNP
+  variant-base: T
+calling-definition:
+  confirmed:
+    mutations-required: 4
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 1

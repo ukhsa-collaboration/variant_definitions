@@ -40,7 +40,8 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/edge-talon.yml">V-22OCT-02</a> | PANGO: XBB | This variant is a recombinant lineage of BJ.1 and BM.1.1.1 |
 | <a href="variant_yaml/gaming-talon.yml">V-22DEC-01</a> | PANGO: CH.1.1 | This variant is a sub-lineage of BA.2.75 |
 | <a href="variant_yaml/vertical-sworn.yml">V-23JAN-01</a> | PANGO: XBB.1.5 | This variant is a sub-lineage of XBB |
-| <a href="variant_yaml/handler-hypnosis.yml">V-23JAN-01</a> | PANGO: XBB.1.16 | This variant is a sub-lineage of XBB |
+| <a href="variant_yaml/handler-hypnosis.yml">V-23APR-01</a> | PANGO: XBB.1.16 | This variant is a sub-lineage of XBB |
+| <a href="variant_yaml/wispy-subscript.yml">V-23JUL-01</a> | PANGO: EG.5.1 | This variant is a sub-lineage of XBB (alias of ABB.1.9.2.5.1) |
 | <a href="variant_yaml/statistic-cadillac.yml">SIM-BA3</a> | PANGO: BA.3 | This variant is a sub-lineage of B.1.1.529 and has not been declared as a variant by UKHSA but is defined for monitoring purposes. |
 
 ## File format definition

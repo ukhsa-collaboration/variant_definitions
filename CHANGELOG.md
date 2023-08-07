@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2 - 2023-08-07
+
+### Added
+- `wispy-subscript`: Added definition for V-23JUL-01 (EG.5.1)
+
 ## 1.1 - 2023-05-19
 
 ### Added
