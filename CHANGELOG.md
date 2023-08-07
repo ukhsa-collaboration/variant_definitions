@@ -1,9 +1,16 @@
 # Changelog
 
+
 ## 1.2 - 2023-08-07
 
 ### Added
 - `wispy-subscript`: Added definition for V-23JUL-01 (EG.5.1)
+
+## 1.1.1 - 2022-06-22
+
+### Changed
+- `imagines-viewable`: Increased `wildtype-allowed` for `low-qc` definition from 0 to 1 in line with probable definition
+- `handler-hypnosis`: Increased `wildtype-allowed` for `low-qc` definition from 0 to 1 in line with probable definition
 
 ## 1.1 - 2023-05-19
 

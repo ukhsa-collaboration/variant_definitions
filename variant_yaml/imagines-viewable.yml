@@ -63,7 +63,7 @@ calling-definition:
   low-qc:
     mutations-required: 0
     indels-required: 0
-    allowed-wildtype: 0
+    allowed-wildtype: 1
 acknowledgements:
 - Tulio de Oliveira and colleagues, CERI, Centre for Epidemic Response and Innovation, Stellenbosch University and KRISP, KZN Research Innovation and Sequencing Platform, UKZN, South Africa
 - National Institute for Communicable Diseases of the National Health Laboratory Service, South Africa
