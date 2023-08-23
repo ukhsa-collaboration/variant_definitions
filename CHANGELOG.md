@@ -3,6 +3,11 @@
 
 ## 1.2 - 2023-08-07
 
+## 1.3 - 2023-08-23
+
+### Added
+- `poppy-deed`: Added definition for V-23AUG-01 (BA.2.86)
+
 ### Added
 - `wispy-subscript`: Added definition for V-23JUL-01 (EG.5.1)
 
