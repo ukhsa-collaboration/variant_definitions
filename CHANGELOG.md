@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.1 - 2023-09-15
+
+### Updated
+- `imagines-viewable`: Changed definition for V-22JAN-01 (BA.2) to reduce impact of requirement for Spike Q493R to allow child variants to be called more efficiently
+
 ## 1.3 - 2023-08-23
 
 ### Added

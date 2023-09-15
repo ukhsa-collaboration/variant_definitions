@@ -1,5 +1,5 @@
 unique-id: imagines-viewable
-phe-label: VOC-22JAN-01
+phe-label: VUI-22JAN-01
 who-label: Omicron
 alternate-names:
 - BA.2
@@ -51,6 +51,16 @@ variants:
   reference-base: GAT
   type: MNP
   variant-base: CTC
+- codon-change: TTC-TTT
+  gene: M
+  one-based-reference-position: 26858
+  predicted-effect: synonymous
+  protein: M
+  protein-codon-position: 112
+  snp-codon-position: 3
+  reference-base: C
+  type: SNP
+  variant-base: T
 calling-definition:
   confirmed:
     mutations-required: 3
@@ -60,6 +70,51 @@ calling-definition:
     mutations-required: 3
     indels-required: 0
     allowed-wildtype: 1
+  alt-probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 0
+    variants:
+      - amino-acid-change: T24I
+        codon-change: ACT-ATT
+        gene: ORF1ab
+        one-based-reference-position: 2790
+        predicted-effect: non-synonymous
+        protein: nsp3
+        protein-codon-position: 24
+        reference-base: C
+        type: SNP
+        variant-base: T
+      - amino-acid-change: F486P
+        codon-change: TTT-CCT
+        gene: S
+        one-based-reference-position: 23018
+        predicted-effect: non-synonymous
+        protein: surface glycoprotein
+        protein-codon-position: 486
+        reference-base: TTT
+        type: MNP
+        variant-base: CCN
+      - amino-acid-change: D61L
+        codon-change: GAT-CTC
+        gene: ORF6
+        one-based-reference-position: 27382
+        predicted-effect: non-synonymous
+        protein: ORF6 protein
+        protein-codon-position: 61
+        reference-base: GAT
+        type: MNP
+        variant-base: CTC
+      - codon-change: TTC-TTT
+        gene: M
+        one-based-reference-position: 26858
+        predicted-effect: synonymous
+        protein: M
+        protein-codon-position: 112
+        snp-codon-position: 3
+        reference-base: C
+        type: SNP
+        variant-base: T
   low-qc:
     mutations-required: 0
     indels-required: 0
