@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4 - 2024-01-23
+
+### Added
+- `nutrient-magnesium`: Added definition for V-23DEC-01 (JN.1)
+
 ## 1.3 - 2023-08-23
 
 ### Added

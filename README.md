@@ -43,6 +43,7 @@ Variant definitions are subject to change at any time. The latest release can be
 | <a href="variant_yaml/handler-hypnosis.yml">V-23APR-01</a> | PANGO: XBB.1.16 | This variant is a sub-lineage of XBB |
 | <a href="variant_yaml/wispy-subscript.yml">V-23JUL-01</a> | PANGO: EG.5.1 | This variant is a sub-lineage of XBB (alias of ABB.1.9.2.5.1) |
 | <a href="variant_yaml/poppy-deed.yml">V-23AUG-01</a> | PANGO: BA.2.86 | This variant is a sub-lineage of BA.2 with a large number of mutations observed in several countries |
+| <a href="variant_yaml/nutrient-magnesium.yml">V-23DEC-01</a> | PANGO: JN.1 | This variant is a sub-lineage of BA.2.86 |
 | <a href="variant_yaml/statistic-cadillac.yml">SIM-BA3</a> | PANGO: BA.3 | This variant is a sub-lineage of B.1.1.529 and has not been declared as a variant by UKHSA but is defined for monitoring purposes. |
 
 ## File format definition

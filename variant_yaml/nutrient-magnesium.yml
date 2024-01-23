@@ -1,0 +1,73 @@
+unique-id: nutrient-magnesium
+phe-label: V-23DEC-01
+who-label: Omicron
+belongs-to-lineage:
+- PANGO: JN.1
+description: This variant is a sub-lineage of the Omicron lineage BA.2.86
+information-sources:
+- https://github.com/sars-cov-2-variants/lineage-proposals/issues/606
+requires: poppy-deed
+variants:
+- codon-change: GGT-GGC
+  gene: ORF1ab
+  one-based-reference-position: 3565
+  predicted-effect: synonymous
+  protein: nsp3
+  protein-codon-position: 282
+  reference-base: T
+  snp-codon-position: 3
+  type: SNP
+  variant-base: C
+- amino-acid-change: R252K
+  codon-change: AGA-AAA
+  gene: ORF1ab
+  one-based-reference-position: 11727
+  predicted-effect: non-synonymous
+  protein: nsp6
+  protein-codon-position: 252
+  reference-base: G
+  type: SNP
+  variant-base: A
+- codon-change: TGC-TGT
+  gene: ORF1ab
+  one-based-reference-position: 18894
+  predicted-effect: synonymous
+  protein: nsp14
+  protein-codon-position: 285
+  reference-base: C
+  snp-codon-position: 3
+  type: SNP
+  variant-base: T
+- amino-acid-change: L455S
+  codon-change: TTG-TCG
+  gene: S
+  one-based-reference-position: 22926
+  predicted-effect: non-synonymous
+  protein: surface glycoprotein
+  protein-codon-position: 455
+  reference-base: T
+  type: SNP
+  variant-base: C
+- amino-acid-change: F19L
+  codon-change: TTC-CTC
+  gene: ORF7b
+  one-based-reference-position: 27810
+  predicted-effect: non-synonymous
+  protein: ORF7b
+  protein-codon-position: 19
+  reference-base: T
+  type: SNP
+  variant-base: C
+calling-definition:
+  confirmed:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 0
+  probable:
+    mutations-required: 3
+    indels-required: 0
+    allowed-wildtype: 1
+  low-qc:
+    mutations-required: 0
+    indels-required: 0
+    allowed-wildtype: 1
